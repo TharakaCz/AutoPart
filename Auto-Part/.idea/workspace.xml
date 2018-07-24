@@ -1,0 +1,752 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="BackEnd:war exploded" />
+    </artifacts-to-build>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="21fa66a8-54a6-462c-8019-5f9016f57c35" name="Default" comment="" />
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/BackEnd/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="main.component.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/FrontEnd/Users/src/app/view/main/main.component.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="676">
+              <caret line="57" column="14" selection-start-line="57" selection-start-column="14" selection-end-line="57" selection-end-column="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main.css" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/FrontEnd/Users/src/assets/css/main.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="918">
+              <caret line="508" lean-forward="true" selection-start-line="508" selection-end-line="508" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="dashbord.component.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/FrontEnd/Users/src/app/view/dashbord/dashbord.component.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="441">
+              <caret line="503" selection-start-line="503" selection-end-line="503" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="dashbord.component.ts" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/FrontEnd/Users/src/app/view/dashbord/dashbord.component.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="238">
+              <caret line="14" column="1" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+        <option value="CSS File" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>into</find>
+      <find>input</find>
+      <find>contact</find>
+      <find>team</find>
+      <find>our cli</find>
+      <find>ABOUT US</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/BackEnd/pom.xml" />
+        <option value="$PROJECT_DIR$/FrontEnd/Client/src/assets/css/magnific-popup.css" />
+        <option value="$PROJECT_DIR$/FrontEnd/Client/src/assets/css/settings.css" />
+        <option value="$PROJECT_DIR$/FrontEnd/Client/src/assets/css/layers.css" />
+        <option value="$PROJECT_DIR$/FrontEnd/Client/src/assets/css/navigation.css" />
+        <option value="$PROJECT_DIR$/FrontEnd/Client/src/assets/css/animation.css" />
+        <option value="$PROJECT_DIR$/FrontEnd/Client/src/assets/css/slick.css" />
+        <option value="$PROJECT_DIR$/FrontEnd/Client/src/assets/css/typography-default.css" />
+        <option value="$PROJECT_DIR$/FrontEnd/Client/src/assets/css/light_blue.css" />
+        <option value="$PROJECT_DIR$/FrontEnd/Client/src/assets/css/style-switcher.css" />
+        <option value="$PROJECT_DIR$/FrontEnd/Client/src/app/main/main.component.html" />
+        <option value="$PROJECT_DIR$/FrontEnd/Client/src/assets/css/animate.min.css" />
+        <option value="$PROJECT_DIR$/FrontEnd/Client/src/assets/css/ionicons.min.css" />
+        <option value="$PROJECT_DIR$/FrontEnd/Client/src/assets/css/owl.carousel.min.css" />
+        <option value="$PROJECT_DIR$/FrontEnd/Client/src/assets/css/lightbox.min.css" />
+        <option value="$PROJECT_DIR$/FrontEnd/Client/src/assets/js/jquery.min.js" />
+        <option value="$PROJECT_DIR$/FrontEnd/Client/src/assets/js/jquery-migrate.min.js" />
+        <option value="$PROJECT_DIR$/FrontEnd/Client/src/assets/js/easing.min.js" />
+        <option value="$PROJECT_DIR$/FrontEnd/Client/src/assets/js/hoverintent.js" />
+        <option value="$PROJECT_DIR$/FrontEnd/Client/src/assets/js/superfish.min.js" />
+        <option value="$PROJECT_DIR$/FrontEnd/Client/src/assets/js/wow.min.js" />
+        <option value="$PROJECT_DIR$/FrontEnd/Client/src/assets/js/waypoints.min.js" />
+        <option value="$PROJECT_DIR$/FrontEnd/Client/src/assets/js/counterup.min.js" />
+        <option value="$PROJECT_DIR$/FrontEnd/Client/src/assets/js/owl.carousel.min.js" />
+        <option value="$PROJECT_DIR$/FrontEnd/Client/src/assets/js/isotope.pkgd.min.js" />
+        <option value="$PROJECT_DIR$/FrontEnd/Client/src/assets/js/lightbox.min.js" />
+        <option value="$PROJECT_DIR$/FrontEnd/Client/src/assets/js/jquery.touchSwipe.min.js" />
+        <option value="$PROJECT_DIR$/FrontEnd/Client/src/assets/js/contactform.js" />
+        <option value="$PROJECT_DIR$/FrontEnd/Client/src/assets/js/main.js" />
+        <option value="$PROJECT_DIR$/FrontEnd/Client/src/styles.css" />
+        <option value="$PROJECT_DIR$/FrontEnd/Client/src/assets/css/font-awesome.min.css" />
+        <option value="$PROJECT_DIR$/FrontEnd/Client/angular.json" />
+        <option value="$PROJECT_DIR$/FrontEnd/Client/src/index.html" />
+        <option value="$PROJECT_DIR$/FrontEnd/Client/src/app/app.component.html" />
+        <option value="$PROJECT_DIR$/FrontEnd/Client/src/assets/css/main.css" />
+        <option value="$PROJECT_DIR$/FrontEnd/Users/angular.json" />
+        <option value="$PROJECT_DIR$/FrontEnd/Users/src/app/routing/routing.module.ts" />
+        <option value="$PROJECT_DIR$/FrontEnd/Users/src/app/app.module.ts" />
+        <option value="$PROJECT_DIR$/FrontEnd/Users/src/app/view/dashbord/dashbord.component.html" />
+        <option value="$PROJECT_DIR$/FrontEnd/Users/src/app/app.component.html" />
+        <option value="$PROJECT_DIR$/FrontEnd/Users/src/app/view/main/main.component.css" />
+        <option value="$PROJECT_DIR$/FrontEnd/Users/src/app/view/main/main.component.html" />
+        <option value="$PROJECT_DIR$/FrontEnd/Users/src/assets/css/main.css" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="JsbtTreeLayoutManager">
+    <layout place="tools.popupGrunt">
+      <scroll-view-position x="0" y="0" />
+    </layout>
+    <layout place="tools.popupnpm">
+      <scroll-view-position x="0" y="0" />
+      <selected-paths>
+        <path>
+          <id value="$PROJECT_DIR$/FrontEnd/Client/package.json" />
+          <id value="start" />
+        </path>
+      </selected-paths>
+    </layout>
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="NodeModulesDirectoryManager">
+    <handled-path value="$PROJECT_DIR$/FrontEnd/Admin/node_modules" />
+    <handled-path value="$PROJECT_DIR$/FrontEnd/Users/node_modules" />
+  </component>
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths>
+      <path value="$PROJECT_DIR$/FrontEnd/Admin/package.json" />
+      <path value="$PROJECT_DIR$/FrontEnd/Users/package.json" />
+    </packageJsonPaths>
+  </component>
+  <component name="PhpServers">
+    <servers />
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="15" />
+    <option name="y" value="14" />
+    <option name="width" value="1500" />
+    <option name="height" value="1017" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Auto-Part" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Auto-Part" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Auto-Part" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Auto-Part" type="462c0819:PsiDirectoryNode" />
+              <item name="FrontEnd" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Auto-Part" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Auto-Part" type="462c0819:PsiDirectoryNode" />
+              <item name="FrontEnd" type="462c0819:PsiDirectoryNode" />
+              <item name="Users" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Auto-Part" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Auto-Part" type="462c0819:PsiDirectoryNode" />
+              <item name="FrontEnd" type="462c0819:PsiDirectoryNode" />
+              <item name="Users" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Auto-Part" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Auto-Part" type="462c0819:PsiDirectoryNode" />
+              <item name="FrontEnd" type="462c0819:PsiDirectoryNode" />
+              <item name="Users" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Auto-Part" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Auto-Part" type="462c0819:PsiDirectoryNode" />
+              <item name="FrontEnd" type="462c0819:PsiDirectoryNode" />
+              <item name="Users" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="view" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Auto-Part" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Auto-Part" type="462c0819:PsiDirectoryNode" />
+              <item name="FrontEnd" type="462c0819:PsiDirectoryNode" />
+              <item name="Users" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="view" type="462c0819:PsiDirectoryNode" />
+              <item name="dashbord" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Auto-Part" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Auto-Part" type="462c0819:PsiDirectoryNode" />
+              <item name="FrontEnd" type="462c0819:PsiDirectoryNode" />
+              <item name="Users" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="view" type="462c0819:PsiDirectoryNode" />
+              <item name="gig-page" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Auto-Part" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Auto-Part" type="462c0819:PsiDirectoryNode" />
+              <item name="FrontEnd" type="462c0819:PsiDirectoryNode" />
+              <item name="Users" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="view" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Auto-Part" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Auto-Part" type="462c0819:PsiDirectoryNode" />
+              <item name="FrontEnd" type="462c0819:PsiDirectoryNode" />
+              <item name="Users" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Auto-Part" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Auto-Part" type="462c0819:PsiDirectoryNode" />
+              <item name="FrontEnd" type="462c0819:PsiDirectoryNode" />
+              <item name="Users" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="jdk.selected.JAVA_MODULE" value="1.8" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Facets" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="restartRequiresConfirmation" value="false" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="ts.external.directory.path" value="$PROJECT_DIR$/FrontEnd/Admin/node_modules/typescript/lib" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\Auto-Part-3rd-Semister-Final-Project-\Auto-Part\FrontEnd\Client\src\assets\paralax" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\Auto-Part-3rd-Semister-Final-Project-\Auto-Part\FrontEnd\Client\src\assets\images\clients" />
+      <recent name="E:\Auto-Part-3rd-Semister-Final-Project-\Auto-Part\FrontEnd\Client\src\assets\paralax" />
+      <recent name="E:\Auto-Part-3rd-Semister-Final-Project-\Auto-Part\FrontEnd\Client\src\assets\cover" />
+      <recent name="E:\Auto-Part-3rd-Semister-Final-Project-\Auto-Part\FrontEnd\Client\src\assets\images\aboutus" />
+      <recent name="E:\Auto-Part-3rd-Semister-Final-Project-\Auto-Part\FrontEnd\Client\src\assets\images\curosul" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <properties />
+      <listeners />
+    </configuration>
+    <configuration name="Apache TomCat" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.10" ALTERNATIVE_JRE_ENABLED="true" ALTERNATIVE_JRE_PATH="1.8">
+      <deployment>
+        <artifact name="BackEnd:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="Unnamed_Auto-Part_2" />
+      </server-settings>
+      <predefined_log_file id="Tomcat" enabled="true" />
+      <predefined_log_file id="Tomcat Catalina" enabled="true" />
+      <predefined_log_file id="Tomcat Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Host Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Localhost Access" enabled="false" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="6371" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method>
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="BackEnd:war exploded" />
+        </option>
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="21fa66a8-54a6-462c-8019-5f9016f57c35" name="Default" comment="" />
+      <created>1532055475425</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1532055475425</updated>
+      <workItem from="1532055480093" duration="1384000" />
+      <workItem from="1532069908686" duration="4973000" />
+      <workItem from="1532094453116" duration="5270000" />
+      <workItem from="1532169784749" duration="10089000" />
+      <workItem from="1532187432505" duration="2585000" />
+      <workItem from="1532274961938" duration="1756000" />
+      <workItem from="1532312033796" duration="580000" />
+      <workItem from="1532332328769" duration="1134000" />
+      <workItem from="1532362166714" duration="3778000" />
+      <workItem from="1532366494523" duration="71000" />
+      <workItem from="1532366733216" duration="68000" />
+      <workItem from="1532398227855" duration="357000" />
+      <workItem from="1532399293142" duration="590000" />
+      <workItem from="1532401710110" duration="414000" />
+      <workItem from="1532402313622" duration="1124000" />
+      <workItem from="1532412254843" duration="951000" />
+      <workItem from="1532425380549" duration="4802000" />
+      <workItem from="1532450739837" duration="1295000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="41221000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="15" y="14" width="1500" height="1017" extended-state="0" />
+    <layout>
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Application Servers" order="8" weight="0.32976446" />
+      <window_info anchor="right" id="Maven Projects" order="3" />
+      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
+      <window_info id="Capture Tool" order="2" />
+      <window_info anchor="bottom" id="TypeScript" order="9" />
+      <window_info id="Designer" order="2" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="right" id="Database" order="3" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.3298611" />
+      <window_info id="UI Designer" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="3" />
+      <window_info id="Image Layers" order="2" />
+      <window_info anchor="bottom" id="Java Enterprise" order="7" />
+      <window_info anchor="right" id="Capture Analysis" order="3" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.54915255" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.31299436" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2611111" />
+      <window_info id="Web" order="2" side_tool="true" />
+      <window_info anchor="right" id="Theme Preview" order="3" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="8" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info id="npm" order="3" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" />
+    </layout>
+    <layout-to-restore>
+      <window_info id="Designer" order="2" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info id="Image Layers" order="3" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.19760479" />
+      <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Java Enterprise" order="10" />
+      <window_info anchor="bottom" id="Database Changes" order="11" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="12" />
+      <window_info anchor="right" id="Maven Projects" order="5" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21180555" />
+      <window_info anchor="right" id="Database" order="6" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info id="Web" order="7" side_tool="true" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/FrontEnd/Users/src/app/view/dashbord/dashbord.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="8551">
+          <caret line="503" selection-start-line="503" selection-end-line="503" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FrontEnd/Users/src/app/view/dashbord/dashbord.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="1" lean-forward="true" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FrontEnd/Client/angular.json" />
+    <entry file="file://$PROJECT_DIR$/FrontEnd/Client/src/index.html" />
+    <entry file="file://$PROJECT_DIR$/FrontEnd/Client/src/assets/css/main.css" />
+    <entry file="file://$PROJECT_DIR$/FrontEnd/Client/src/app/app.component.html" />
+    <entry file="file://$PROJECT_DIR$/FrontEnd/Client/angular.json" />
+    <entry file="file://$PROJECT_DIR$/FrontEnd/Client/src/index.html" />
+    <entry file="file://$PROJECT_DIR$/FrontEnd/Client/src/app/app.component.html" />
+    <entry file="file://$PROJECT_DIR$/BackEnd/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="10" lean-forward="true" selection-start-line="12" selection-start-column="10" selection-end-line="12" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FrontEnd/Client/src/assets/css/magnific-popup.css" />
+    <entry file="file://$PROJECT_DIR$/FrontEnd/Client/src/assets/css/settings.css" />
+    <entry file="file://$PROJECT_DIR$/FrontEnd/Client/src/assets/css/layers.css" />
+    <entry file="file://$PROJECT_DIR$/FrontEnd/Client/src/assets/css/navigation.css" />
+    <entry file="file://$PROJECT_DIR$/FrontEnd/Client/src/assets/css/animation.css" />
+    <entry file="file://$PROJECT_DIR$/FrontEnd/Client/src/assets/css/slick.css" />
+    <entry file="file://$PROJECT_DIR$/FrontEnd/Client/src/assets/css/typography-default.css" />
+    <entry file="file://$PROJECT_DIR$/FrontEnd/Client/src/assets/css/light_blue.css" />
+    <entry file="file://$PROJECT_DIR$/FrontEnd/Client/src/assets/css/style-switcher.css" />
+    <entry file="file://$PROJECT_DIR$/FrontEnd/Client/src/assets/css/animate.min.css" />
+    <entry file="file://$PROJECT_DIR$/FrontEnd/Client/src/assets/css/ionicons.min.css" />
+    <entry file="file://$PROJECT_DIR$/FrontEnd/Client/src/assets/css/owl.carousel.min.css" />
+    <entry file="file://$PROJECT_DIR$/FrontEnd/Client/src/assets/css/lightbox.min.css" />
+    <entry file="file://$PROJECT_DIR$/FrontEnd/Client/src/assets/js/jquery.min.js" />
+    <entry file="file://$PROJECT_DIR$/FrontEnd/Client/src/assets/js/jquery-migrate.min.js" />
+    <entry file="file://$PROJECT_DIR$/FrontEnd/Client/src/assets/js/easing.min.js" />
+    <entry file="file://$PROJECT_DIR$/FrontEnd/Client/src/assets/js/hoverintent.js" />
+    <entry file="file://$PROJECT_DIR$/FrontEnd/Client/src/assets/js/superfish.min.js" />
+    <entry file="file://$PROJECT_DIR$/FrontEnd/Client/src/assets/js/wow.min.js" />
+    <entry file="file://$PROJECT_DIR$/FrontEnd/Client/src/assets/js/waypoints.min.js" />
+    <entry file="file://$PROJECT_DIR$/FrontEnd/Client/src/assets/js/counterup.min.js" />
+    <entry file="file://$PROJECT_DIR$/FrontEnd/Client/src/assets/js/owl.carousel.min.js" />
+    <entry file="file://$PROJECT_DIR$/FrontEnd/Client/src/assets/js/isotope.pkgd.min.js" />
+    <entry file="file://$PROJECT_DIR$/FrontEnd/Client/src/assets/js/lightbox.min.js" />
+    <entry file="file://$PROJECT_DIR$/FrontEnd/Client/src/assets/js/jquery.touchSwipe.min.js" />
+    <entry file="file://$PROJECT_DIR$/FrontEnd/Client/src/assets/js/contactform.js" />
+    <entry file="file://$PROJECT_DIR$/FrontEnd/Client/src/assets/js/main.js" />
+    <entry file="file://$PROJECT_DIR$/FrontEnd/Client/src/assets/css/font-awesome.min.css" />
+    <entry file="file://$PROJECT_DIR$/FrontEnd/Client/src/assets/css/main.css" />
+    <entry file="file://$PROJECT_DIR$/FrontEnd/Client/angular.json" />
+    <entry file="file://$PROJECT_DIR$/FrontEnd/Client/src/app/app.component.html" />
+    <entry file="file://$PROJECT_DIR$/FrontEnd/Client/src/index.html" />
+    <entry file="file://$PROJECT_DIR$/FrontEnd/Users/angular.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="42">
+          <caret line="33" column="12" lean-forward="true" selection-start-line="33" selection-start-column="12" selection-end-line="33" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FrontEnd/Users/src/app/app.component.spec.ts">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FrontEnd/Users/src/app/app.module.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="26" column="27" lean-forward="true" selection-start-line="26" selection-start-column="27" selection-end-line="26" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FrontEnd/Users/src/app/routing/routing.module.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="629">
+          <caret line="37" column="16" selection-start-line="37" selection-start-column="16" selection-end-line="37" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FrontEnd/Users/src/app/app.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="499">
+          <caret line="532" column="16" lean-forward="true" selection-start-line="532" selection-start-column="16" selection-end-line="532" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FrontEnd/Users/src/app/view/dashbord/dashbord.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="1" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FrontEnd/Users/src/app/view/dashbord/dashbord.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="441">
+          <caret line="503" selection-start-line="503" selection-end-line="503" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FrontEnd/Users/src/app/view/main/main.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="676">
+          <caret line="57" column="14" selection-start-line="57" selection-start-column="14" selection-end-line="57" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FrontEnd/Users/src/assets/css/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="918">
+          <caret line="508" lean-forward="true" selection-start-line="508" selection-end-line="508" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <last-edited>BackEnd:war</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.5" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Web (BackEnd)|Web</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>Auto-Part</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
