@@ -2,17 +2,23 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
-import { MainComponent } from './main/main.component';
-import { ManageSellerComponent } from './manage-seller/manage-seller.component';
+import { DashboardComponent } from './view/dashboard/dashboard.component';
+import { ManageSellersComponent } from './view/manage-sellers/manage-sellers.component';
+import { ManageSellersAccountComponent } from './view/manage-sellers-account/manage-sellers-account.component';
+import {RoutingModule} from "./routing/routing.module";
+
 
 @NgModule({
   declarations: [
     AppComponent,
-    MainComponent,
-    ManageSellerComponent
+    DashboardComponent,
+    ManageSellersComponent,
+    ManageSellersAccountComponent
+
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    RoutingModule
   ],
   providers: [],
   bootstrap: [AppComponent]
