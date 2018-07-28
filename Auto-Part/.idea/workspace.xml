@@ -6,8 +6,7 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="21fa66a8-54a6-462c-8019-5f9016f57c35" name="Default" comment="" />
-    <ignored path="$PROJECT_DIR$/out/" />
+    <list default="true" id="e3f956f5-8d51-4f92-bfa4-3e1b5c0c8178" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/BackEnd/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -18,20 +17,16 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="app.component.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/FrontEnd/Admin/src/app/app.component.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-78">
-              <caret line="59" column="74" selection-start-line="59" selection-start-column="74" selection-end-line="59" selection-end-column="74" />
-            </state>
-          </provider>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/FrontEnd/Users/src/index.html">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
-      <file leaf-file-name="app.module.ts" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/FrontEnd/Admin/src/app/app.module.ts">
+      <file leaf-file-name="app.component.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/FrontEnd/Users/src/app/app.component.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="76" selection-start-line="6" selection-start-column="54" selection-end-line="6" selection-end-column="76" />
+            <state relative-caret-position="340">
+              <caret line="20" column="11" lean-forward="true" selection-start-line="20" selection-start-column="11" selection-end-line="20" selection-end-column="11" />
             </state>
           </provider>
         </entry>
@@ -41,103 +36,64 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JavaScript File" />
-        <option value="CSS File" />
+        <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>into</find>
-      <find>input</find>
-      <find>contact</find>
-      <find>team</find>
-      <find>our cli</find>
-      <find>ABOUT US</find>
-      <find>font-f</find>
+      <find>ADMIN</find>
     </findStrings>
-  </component>
-  <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/FrontEnd/Client/src/assets/css/lightbox.min.css" />
-        <option value="$PROJECT_DIR$/FrontEnd/Client/src/assets/js/jquery.min.js" />
-        <option value="$PROJECT_DIR$/FrontEnd/Client/src/assets/js/jquery-migrate.min.js" />
-        <option value="$PROJECT_DIR$/FrontEnd/Client/src/assets/js/easing.min.js" />
-        <option value="$PROJECT_DIR$/FrontEnd/Client/src/assets/js/hoverintent.js" />
-        <option value="$PROJECT_DIR$/FrontEnd/Client/src/assets/js/superfish.min.js" />
-        <option value="$PROJECT_DIR$/FrontEnd/Client/src/assets/js/wow.min.js" />
-        <option value="$PROJECT_DIR$/FrontEnd/Client/src/assets/js/waypoints.min.js" />
-        <option value="$PROJECT_DIR$/FrontEnd/Client/src/assets/js/counterup.min.js" />
-        <option value="$PROJECT_DIR$/FrontEnd/Client/src/assets/js/owl.carousel.min.js" />
-        <option value="$PROJECT_DIR$/FrontEnd/Client/src/assets/js/isotope.pkgd.min.js" />
-        <option value="$PROJECT_DIR$/FrontEnd/Client/src/assets/js/lightbox.min.js" />
-        <option value="$PROJECT_DIR$/FrontEnd/Client/src/assets/js/jquery.touchSwipe.min.js" />
-        <option value="$PROJECT_DIR$/FrontEnd/Client/src/assets/js/contactform.js" />
-        <option value="$PROJECT_DIR$/FrontEnd/Client/src/assets/js/main.js" />
-        <option value="$PROJECT_DIR$/FrontEnd/Client/src/styles.css" />
-        <option value="$PROJECT_DIR$/FrontEnd/Client/src/assets/css/font-awesome.min.css" />
-        <option value="$PROJECT_DIR$/FrontEnd/Client/angular.json" />
-        <option value="$PROJECT_DIR$/FrontEnd/Client/src/index.html" />
-        <option value="$PROJECT_DIR$/FrontEnd/Client/src/app/app.component.html" />
-        <option value="$PROJECT_DIR$/FrontEnd/Client/src/assets/css/main.css" />
-        <option value="$PROJECT_DIR$/FrontEnd/Users/angular.json" />
-        <option value="$PROJECT_DIR$/FrontEnd/Users/src/app/view/dashbord/dashbord.component.html" />
-        <option value="$PROJECT_DIR$/FrontEnd/Users/src/app/view/main/main.component.css" />
-        <option value="$PROJECT_DIR$/FrontEnd/Users/src/app/view/main/main.component.html" />
-        <option value="$PROJECT_DIR$/FrontEnd/Users/src/app/app.module.ts" />
-        <option value="$PROJECT_DIR$/FrontEnd/Users/src/app/routing/routing.module.ts" />
-        <option value="$PROJECT_DIR$/FrontEnd/Users/src/app/app.component.css" />
-        <option value="$PROJECT_DIR$/FrontEnd/Users/src/assets/css/main.css" />
-        <option value="$PROJECT_DIR$/FrontEnd/Users/src/index.html" />
-        <option value="$PROJECT_DIR$/FrontEnd/Users/src/app/app.component.html" />
-        <option value="$PROJECT_DIR$/FrontEnd/Seller/src/app/view/view.component.html" />
-        <option value="$PROJECT_DIR$/FrontEnd/Seller/src/app/routiing/routiing.module.ts" />
-        <option value="$PROJECT_DIR$/FrontEnd/Seller/angular.json" />
-        <option value="$PROJECT_DIR$/FrontEnd/Seller/src/styles.css" />
-        <option value="$PROJECT_DIR$/FrontEnd/Seller/src/app/app.component.css" />
-        <option value="$PROJECT_DIR$/FrontEnd/Seller/src/index.html" />
-        <option value="$PROJECT_DIR$/FrontEnd/Seller/src/app/view/main/main.component.html" />
-        <option value="$PROJECT_DIR$/FrontEnd/Seller/src/app/view/login/login.component.html" />
-        <option value="$PROJECT_DIR$/FrontEnd/Seller/src/app/view/login/login.component.css" />
-        <option value="$PROJECT_DIR$/FrontEnd/Seller/src/app/app.module.ts" />
-        <option value="$PROJECT_DIR$/FrontEnd/Seller/src/app/app-routing/app-routing.module.ts" />
-        <option value="$PROJECT_DIR$/FrontEnd/Seller/src/app/app.component.html" />
-        <option value="$PROJECT_DIR$/FrontEnd/Seller/src/app/view/dashboard/dashboard.component.html" />
-        <option value="$PROJECT_DIR$/FrontEnd/Seller/src/app/view/manage-gig/manage-gig.component.html" />
+        <option value="$PROJECT_DIR$/BackEnd/pom.xml" />
+        <option value="$PROJECT_DIR$/BackEnd/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/BackEnd/src/main/java/lk/ijse/autopart/rest/entity/Seller.java" />
+        <option value="$PROJECT_DIR$/BackEnd/src/main/java/lk/ijse/autopart/rest/dto/SellerDTO.java" />
+        <option value="$PROJECT_DIR$/BackEnd/src/main/java/lk/ijse/autopart/rest/controller/SellerController.java" />
+        <option value="$PROJECT_DIR$/BackEnd/src/main/java/lk/ijse/autopart/rest/main/WebAppConfig.java" />
+        <option value="$PROJECT_DIR$/BackEnd/src/main/java/lk/ijse/autopart/rest/main/WebAppInitializer.java" />
+        <option value="$PROJECT_DIR$/BackEnd/src/main/java/lk/ijse/autopart/rest/main/WebRootConfig.java" />
+        <option value="$PROJECT_DIR$/BackEnd/src/main/java/lk/ijse/autopart/rest/entity/SellerAccount.java" />
+        <option value="$PROJECT_DIR$/BackEnd/src/main/java/lk/ijse/autopart/rest/dto/SellerAccountDTO.java" />
+        <option value="$PROJECT_DIR$/BackEnd/src/main/java/lk/ijse/autopart/rest/repository/SellerRepository.java" />
+        <option value="$PROJECT_DIR$/BackEnd/src/main/java/lk/ijse/autopart/rest/repository/SellerAccountRepository.java" />
+        <option value="$PROJECT_DIR$/BackEnd/src/main/java/lk/ijse/autopart/rest/service/impl/SellerAccountServiceImpl.java" />
+        <option value="$PROJECT_DIR$/BackEnd/src/main/java/lk/ijse/autopart/rest/service/SellerAccountService.java" />
+        <option value="$PROJECT_DIR$/BackEnd/src/main/java/lk/ijse/autopart/rest/controller/SellerAccountController.java" />
+        <option value="$PROJECT_DIR$/BackEnd/src/main/java/lk/ijse/autopart/rest/entity/Customer.java" />
+        <option value="$PROJECT_DIR$/BackEnd/src/main/java/lk/ijse/autopart/rest/dto/CustomerDTO.java" />
+        <option value="$PROJECT_DIR$/BackEnd/src/main/java/lk/ijse/autopart/rest/repository/CustomerRepository.java" />
+        <option value="$PROJECT_DIR$/FrontEnd/Users/package-lock.json" />
+        <option value="$PROJECT_DIR$/FrontEnd/Admin/package-lock.json" />
+        <option value="$PROJECT_DIR$/FrontEnd/Admin/package.json" />
         <option value="$PROJECT_DIR$/FrontEnd/Admin/angular.json" />
         <option value="$PROJECT_DIR$/FrontEnd/Admin/src/index.html" />
-        <option value="$PROJECT_DIR$/FrontEnd/Admin/src/app/view/dashboard/dashboard.component.html" />
         <option value="$PROJECT_DIR$/FrontEnd/Admin/src/app/routing/routing.module.ts" />
+        <option value="$PROJECT_DIR$/FrontEnd/Admin/src/app/view/manage-sellers/manage-sellers.component.css" />
+        <option value="$PROJECT_DIR$/FrontEnd/Admin/src/app/view/manage-sellers/manage-sellers.component.ts" />
+        <option value="$PROJECT_DIR$/FrontEnd/Admin/src/app/services/seller.service.ts" />
+        <option value="$PROJECT_DIR$/FrontEnd/Admin/src/app/dtos/seller.ts" />
         <option value="$PROJECT_DIR$/FrontEnd/Admin/src/app/app.module.ts" />
+        <option value="$PROJECT_DIR$/FrontEnd/Admin/src/app/view/manage-sellers/manage-sellers.component.html" />
+        <option value="$PROJECT_DIR$/FrontEnd/Admin/src/app/view/dashboard/dashboard.component.html" />
+        <option value="$PROJECT_DIR$/BackEnd/src/main/java/lk/ijse/autopart/rest/entity/CustomerAccount.java" />
+        <option value="$PROJECT_DIR$/BackEnd/src/main/java/lk/ijse/autopart/rest/dto/CustomerAccountDTO.java" />
+        <option value="$PROJECT_DIR$/BackEnd/src/main/java/lk/ijse/autopart/rest/service/SellerService.java" />
+        <option value="$PROJECT_DIR$/BackEnd/src/main/java/lk/ijse/autopart/rest/service/impl/SellerServiceImpl.java" />
         <option value="$PROJECT_DIR$/FrontEnd/Admin/src/app/app.component.html" />
+        <option value="$PROJECT_DIR$/FrontEnd/Users/src/app/app.component.html" />
       </list>
     </option>
   </component>
   <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
-  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER">
-    <package-json value="$PROJECT_DIR$/FrontEnd/Users/package.json" />
-  </component>
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
   <component name="JsGulpfileManager">
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
-  </component>
-  <component name="JsbtTreeLayoutManager">
-    <layout place="tools.popupGrunt">
-      <scroll-view-position x="0" y="0" />
-    </layout>
-    <layout place="tools.popupnpm">
-      <scroll-view-position x="0" y="0" />
-      <selected-paths>
-        <path>
-          <id value="$PROJECT_DIR$/FrontEnd/Users/package.json" />
-          <id value="start" />
-        </path>
-      </selected-paths>
-    </layout>
   </component>
   <component name="LogFilters">
     <option name="FILTER_ERRORS" value="false" />
@@ -168,19 +124,20 @@
   <component name="PhpServers">
     <servers />
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
-    <option name="x" value="199" />
-    <option name="y" value="18" />
-    <option name="width" value="1432" />
-    <option name="height" value="1014" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="101" />
+    <option name="y" value="6" />
+    <option name="width" value="1635" />
+    <option name="height" value="1100" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="AndroidView" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -191,6 +148,92 @@
             <path>
               <item name="Auto-Part" type="b2602c69:ProjectViewProjectNode" />
               <item name="Auto-Part" type="462c0819:PsiDirectoryNode" />
+              <item name="BackEnd" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Auto-Part" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Auto-Part" type="462c0819:PsiDirectoryNode" />
+              <item name="BackEnd" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Auto-Part" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Auto-Part" type="462c0819:PsiDirectoryNode" />
+              <item name="BackEnd" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Auto-Part" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Auto-Part" type="462c0819:PsiDirectoryNode" />
+              <item name="BackEnd" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Auto-Part" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Auto-Part" type="462c0819:PsiDirectoryNode" />
+              <item name="BackEnd" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="rest" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Auto-Part" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Auto-Part" type="462c0819:PsiDirectoryNode" />
+              <item name="BackEnd" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="rest" type="462c0819:PsiDirectoryNode" />
+              <item name="dto" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Auto-Part" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Auto-Part" type="462c0819:PsiDirectoryNode" />
+              <item name="BackEnd" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="rest" type="462c0819:PsiDirectoryNode" />
+              <item name="entity" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Auto-Part" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Auto-Part" type="462c0819:PsiDirectoryNode" />
+              <item name="BackEnd" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="rest" type="462c0819:PsiDirectoryNode" />
+              <item name="repository" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Auto-Part" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Auto-Part" type="462c0819:PsiDirectoryNode" />
+              <item name="BackEnd" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="rest" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Auto-Part" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Auto-Part" type="462c0819:PsiDirectoryNode" />
+              <item name="BackEnd" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="rest" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="impl" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Auto-Part" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Auto-Part" type="462c0819:PsiDirectoryNode" />
               <item name="FrontEnd" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -218,94 +261,40 @@
               <item name="Auto-Part" type="b2602c69:ProjectViewProjectNode" />
               <item name="Auto-Part" type="462c0819:PsiDirectoryNode" />
               <item name="FrontEnd" type="462c0819:PsiDirectoryNode" />
-              <item name="Admin" type="462c0819:PsiDirectoryNode" />
+              <item name="Users" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Auto-Part" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Auto-Part" type="462c0819:PsiDirectoryNode" />
+              <item name="FrontEnd" type="462c0819:PsiDirectoryNode" />
+              <item name="Users" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Auto-Part" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Auto-Part" type="462c0819:PsiDirectoryNode" />
+              <item name="FrontEnd" type="462c0819:PsiDirectoryNode" />
+              <item name="Users" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="view" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Auto-Part" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Auto-Part" type="462c0819:PsiDirectoryNode" />
-              <item name="FrontEnd" type="462c0819:PsiDirectoryNode" />
-              <item name="Admin" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="view" type="462c0819:PsiDirectoryNode" />
-              <item name="dashboard" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Auto-Part" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Auto-Part" type="462c0819:PsiDirectoryNode" />
-              <item name="FrontEnd" type="462c0819:PsiDirectoryNode" />
-              <item name="Seller" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Auto-Part" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Auto-Part" type="462c0819:PsiDirectoryNode" />
-              <item name="FrontEnd" type="462c0819:PsiDirectoryNode" />
-              <item name="Seller" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Auto-Part" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Auto-Part" type="462c0819:PsiDirectoryNode" />
-              <item name="FrontEnd" type="462c0819:PsiDirectoryNode" />
-              <item name="Seller" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Auto-Part" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Auto-Part" type="462c0819:PsiDirectoryNode" />
-              <item name="FrontEnd" type="462c0819:PsiDirectoryNode" />
-              <item name="Seller" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="app-routing" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Auto-Part" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Auto-Part" type="462c0819:PsiDirectoryNode" />
-              <item name="FrontEnd" type="462c0819:PsiDirectoryNode" />
-              <item name="Seller" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="view" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="nodejs_package_manager_path" value="npm" />
-    <property name="project.structure.last.edited" value="Facets" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.2" />
-    <property name="restartRequiresConfirmation" value="false" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
     <property name="ts.external.directory.path" value="$PROJECT_DIR$/FrontEnd/Seller/node_modules/typescript/lib" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\3rd sem ABSD project\AutoPart\Auto-Part\FrontEnd\Seller\src\assets\images" />
-      <recent name="E:\Auto-Part-3rd-Semister-Final-Project-\Auto-Part\FrontEnd\Client\src\assets\images\clients" />
-      <recent name="E:\Auto-Part-3rd-Semister-Final-Project-\Auto-Part\FrontEnd\Client\src\assets\paralax" />
-      <recent name="E:\Auto-Part-3rd-Semister-Final-Project-\Auto-Part\FrontEnd\Client\src\assets\cover" />
-      <recent name="E:\Auto-Part-3rd-Semister-Final-Project-\Auto-Part\FrontEnd\Client\src\assets\images\aboutus" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="E:\Auto-Part-3rd-Semister-Final-Project-\Auto-Part\FrontEnd\Client\src\assets\paralax" />
+      <recent name="E:\3rd sem ABSD project\AutoPart\Auto-Part\FrontEnd\Admin\node_modules" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -320,7 +309,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="npm.start">
+  <component name="RunManager">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
@@ -362,7 +351,7 @@
       <properties />
       <listeners />
     </configuration>
-    <configuration name="Apache TomCat" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.10" ALTERNATIVE_JRE_ENABLED="true" ALTERNATIVE_JRE_PATH="1.8">
+    <configuration name="Auto Part" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.0.27" ALTERNATIVE_JRE_ENABLED="true" ALTERNATIVE_JRE_PATH="1.8">
       <deployment>
         <artifact name="BackEnd:war exploded">
           <settings>
@@ -371,7 +360,7 @@
         </artifact>
       </deployment>
       <server-settings>
-        <option name="BASE_DIRECTORY_NAME" value="Unnamed_Auto-Part_2" />
+        <option name="BASE_DIRECTORY_NAME" value="Unnamed_Auto-Part_3" />
       </server-settings>
       <predefined_log_file id="Tomcat" enabled="true" />
       <predefined_log_file id="Tomcat Catalina" enabled="true" />
@@ -379,7 +368,7 @@
       <predefined_log_file id="Tomcat Host Manager" enabled="false" />
       <predefined_log_file id="Tomcat Localhost Access" enabled="false" />
       <RunnerSettings RunnerId="Debug">
-        <option name="DEBUG_PORT" value="6371" />
+        <option name="DEBUG_PORT" value="5351" />
       </RunnerSettings>
       <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
         <option name="USE_ENV_VARIABLES" value="true" />
@@ -432,139 +421,106 @@
         </option>
       </method>
     </configuration>
-    <configuration name="start" type="js.build_tools.npm" factoryName="npm" temporary="true" nameIsGenerated="true">
-      <package-json value="$PROJECT_DIR$/FrontEnd/Users/package.json" />
-      <command value="run" />
-      <scripts>
-        <script value="start" />
-      </scripts>
-      <node-interpreter value="project" />
-      <envs />
-    </configuration>
-    <list>
-      <item itemvalue="Tomcat Server.Apache TomCat" />
-      <item itemvalue="npm.start" />
-    </list>
-    <recent_temporary>
-      <list>
-        <item itemvalue="npm.start" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="21fa66a8-54a6-462c-8019-5f9016f57c35" name="Default" comment="" />
-      <created>1532055475425</created>
+      <changelist id="e3f956f5-8d51-4f92-bfa4-3e1b5c0c8178" name="Default" comment="" />
+      <created>1532657607686</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1532055475425</updated>
-      <workItem from="1532055480093" duration="1384000" />
-      <workItem from="1532069908686" duration="4973000" />
-      <workItem from="1532094453116" duration="5270000" />
-      <workItem from="1532169784749" duration="10089000" />
-      <workItem from="1532187432505" duration="2585000" />
-      <workItem from="1532274961938" duration="1756000" />
-      <workItem from="1532312033796" duration="580000" />
-      <workItem from="1532332328769" duration="1134000" />
-      <workItem from="1532362166714" duration="3778000" />
-      <workItem from="1532366494523" duration="71000" />
-      <workItem from="1532366733216" duration="68000" />
-      <workItem from="1532398227855" duration="357000" />
-      <workItem from="1532399293142" duration="590000" />
-      <workItem from="1532401710110" duration="414000" />
-      <workItem from="1532402313622" duration="1124000" />
-      <workItem from="1532412254843" duration="951000" />
-      <workItem from="1532425380549" duration="4802000" />
-      <workItem from="1532450739837" duration="1295000" />
-      <workItem from="1532452594316" duration="2332000" />
-      <workItem from="1532454987794" duration="1726000" />
-      <workItem from="1532525806194" duration="13240000" />
-      <workItem from="1532546251498" duration="895000" />
-      <workItem from="1532580411339" duration="754000" />
-      <workItem from="1532581189028" duration="75000" />
-      <workItem from="1532581426046" duration="283000" />
-      <workItem from="1532582618565" duration="1807000" />
-      <workItem from="1532597998656" duration="5873000" />
-      <workItem from="1532610420893" duration="1938000" />
+      <updated>1532657607686</updated>
+      <workItem from="1532657671234" duration="9932000" />
+      <workItem from="1532678105340" duration="1240000" />
+      <workItem from="1532698440476" duration="16108000" />
+      <workItem from="1532750020401" duration="498000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="70144000" />
+    <option name="totallyTimeSpent" value="27778000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
+    <frame x="101" y="6" width="1635" height="1100" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
-      <window_info anchor="bottom" id="Application Servers" order="8" weight="0.32976446" />
-      <window_info anchor="right" id="Maven Projects" order="3" />
+      <window_info anchor="bottom" id="Application Servers" order="7" weight="0.3297546" />
+      <window_info anchor="right" id="Maven Projects" order="4" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
+      <window_info anchor="right" id="CDI" order="11" weight="0.3295238" />
       <window_info id="Capture Tool" order="2" />
-      <window_info anchor="bottom" id="TypeScript" order="9" />
       <window_info id="Designer" order="2" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="right" id="Database" order="3" />
+      <window_info anchor="right" id="Database" order="5" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.3298611" />
+      <window_info anchor="right" id="JSF" order="6" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Palette&#9;" order="3" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="bottom" id="Java Enterprise" order="7" />
-      <window_info anchor="right" id="Capture Analysis" order="3" />
-      <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.21428572" />
-      <window_info id="npm" order="3" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.17344753" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18443497" />
+      <window_info anchor="right" id="Capture Analysis" order="8" />
+      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.25965998" />
+      <window_info anchor="bottom" id="Spring" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.19421488" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2647619" />
+      <window_info anchor="right" id="Bean Validation" order="9" />
       <window_info id="Web" order="2" side_tool="true" />
-      <window_info anchor="right" id="Theme Preview" order="3" />
+      <window_info anchor="right" id="Theme Preview" order="10" />
       <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="8" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="TypeScript" order="8" />
+      <window_info anchor="bottom" id="Messages" order="7" />
+      <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="1" />
     </layout>
     <layout-to-restore>
-      <window_info id="Designer" order="2" />
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info id="Image Layers" order="3" />
-      <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info id="Capture Tool" order="4" />
-      <window_info id="UI Designer" order="5" />
-      <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.19760479" />
-      <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
-      <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="bottom" id="Java Enterprise" order="10" />
-      <window_info anchor="bottom" id="Database Changes" order="11" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="12" />
-      <window_info anchor="right" id="Maven Projects" order="5" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21180555" />
-      <window_info anchor="right" id="Database" order="6" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info id="Web" order="7" side_tool="true" />
-      <window_info anchor="right" id="Palette&#9;" order="7" />
-      <window_info anchor="right" id="Theme Preview" order="8" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Application Servers" order="0" weight="0.3297546" />
+      <window_info id="Designer" order="0" />
+      <window_info anchor="right" id="Palette" order="0" />
+      <window_info anchor="bottom" id="Spring" order="1" />
+      <window_info id="Image Layers" order="1" />
+      <window_info anchor="bottom" id="Run" order="11" visible="true" weight="0.22055675" />
+      <window_info anchor="bottom" id="Cvs" order="13" weight="0.25" />
+      <window_info anchor="right" id="Ant Build" order="10" weight="0.25" />
+      <window_info anchor="right" id="JSF" order="2" />
+      <window_info id="Capture Tool" order="2" />
+      <window_info id="UI Designer" order="3" />
+      <window_info id="Favorites" order="4" side_tool="true" />
+      <window_info anchor="bottom" id="Terminal" order="2" />
+      <window_info anchor="bottom" id="Docker" order="3" show_stripe_button="false" />
+      <window_info anchor="right" id="Capture Analysis" order="1" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="9" type="SLIDING" weight="0.4" />
+      <window_info anchor="bottom" id="Event Log" order="4" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="5" />
+      <window_info anchor="bottom" id="TODO" order="15" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="11" weight="0.25" />
+      <window_info anchor="bottom" id="Java Enterprise" order="6" />
+      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
+      <window_info anchor="right" id="Maven Projects" order="3" />
+      <window_info active="true" content_ui="combo" id="Project" order="6" visible="true" weight="0.20948827" />
+      <window_info anchor="right" id="Database" order="4" />
+      <window_info anchor="bottom" id="Message" order="9" />
+      <window_info id="Web" order="5" side_tool="true" />
+      <window_info anchor="right" id="Palette&#9;" order="5" />
+      <window_info anchor="right" id="Theme Preview" order="6" />
+      <window_info id="Structure" order="7" side_tool="true" weight="0.25" />
+      <window_info anchor="right" id="CDI" order="7" />
+      <window_info anchor="bottom" id="Inspection" order="14" weight="0.4" />
+      <window_info anchor="bottom" id="Find" order="10" />
+      <window_info anchor="right" id="Bean Validation" order="8" />
+      <window_info anchor="bottom" id="Debug" order="12" weight="0.4" />
     </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -573,317 +529,350 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
-  <component name="antWorkspaceConfiguration">
-    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
-    <option name="FILTER_TARGETS" value="false" />
-  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/FrontEnd/Client/src/assets/css/owl.carousel.min.css" />
-    <entry file="file://$PROJECT_DIR$/FrontEnd/Client/src/assets/css/lightbox.min.css" />
-    <entry file="file://$PROJECT_DIR$/FrontEnd/Client/src/assets/js/jquery.min.js" />
-    <entry file="file://$PROJECT_DIR$/FrontEnd/Client/src/assets/js/jquery-migrate.min.js" />
-    <entry file="file://$PROJECT_DIR$/FrontEnd/Client/src/assets/js/easing.min.js" />
-    <entry file="file://$PROJECT_DIR$/FrontEnd/Client/src/assets/js/hoverintent.js" />
-    <entry file="file://$PROJECT_DIR$/FrontEnd/Client/src/assets/js/superfish.min.js" />
-    <entry file="file://$PROJECT_DIR$/FrontEnd/Client/src/assets/js/wow.min.js" />
-    <entry file="file://$PROJECT_DIR$/FrontEnd/Client/src/assets/js/waypoints.min.js" />
-    <entry file="file://$PROJECT_DIR$/FrontEnd/Client/src/assets/js/counterup.min.js" />
-    <entry file="file://$PROJECT_DIR$/FrontEnd/Client/src/assets/js/owl.carousel.min.js" />
-    <entry file="file://$PROJECT_DIR$/FrontEnd/Client/src/assets/js/isotope.pkgd.min.js" />
-    <entry file="file://$PROJECT_DIR$/FrontEnd/Client/src/assets/js/lightbox.min.js" />
-    <entry file="file://$PROJECT_DIR$/FrontEnd/Client/src/assets/js/jquery.touchSwipe.min.js" />
-    <entry file="file://$PROJECT_DIR$/FrontEnd/Client/src/assets/js/contactform.js" />
-    <entry file="file://$PROJECT_DIR$/FrontEnd/Client/src/assets/js/main.js" />
-    <entry file="file://$PROJECT_DIR$/FrontEnd/Client/src/assets/css/font-awesome.min.css" />
-    <entry file="file://$PROJECT_DIR$/FrontEnd/Client/src/assets/css/main.css" />
-    <entry file="file://$PROJECT_DIR$/FrontEnd/Client/angular.json" />
-    <entry file="file://$PROJECT_DIR$/FrontEnd/Client/src/app/app.component.html" />
-    <entry file="file://$PROJECT_DIR$/FrontEnd/Client/src/index.html" />
-    <entry file="file://$PROJECT_DIR$/FrontEnd/Users/src/app/view/dashbord/dashbord.component.ts">
+    <entry file="file://$PROJECT_DIR$/BackEnd/src/main/java/lk/ijse/autopart/rest/service/SellerService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="1" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FrontEnd/Users/src/app/view/dashbord/dashbord.component.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="487" column="27" lean-forward="true" selection-start-line="487" selection-start-column="27" selection-end-line="487" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FrontEnd/Users/src/app/view/main/main.component.html" />
-    <entry file="file://$PROJECT_DIR$/FrontEnd/Users/src/app/app.component.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FrontEnd/Users/src/app/app.module.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="11" selection-start-line="12" selection-start-column="11" selection-end-line="12" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FrontEnd/Users/src/app/app.component.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="14" selection-start-line="4" selection-start-column="14" selection-end-line="4" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FrontEnd/Users/src/assets/js/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1432">
-          <caret line="8" column="5" lean-forward="true" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FrontEnd/Users/src/assets/css/main.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="356">
-          <caret line="1191" column="16" selection-start-line="1191" selection-start-column="16" selection-end-line="1191" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FrontEnd/Users/src/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="18" selection-start-line="4" selection-start-column="18" selection-end-line="4" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FrontEnd/Users/src/app/app.component.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="11" selection-start-line="17" selection-start-column="11" selection-end-line="17" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FrontEnd/Seller/src/styles.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="2" lean-forward="true" selection-start-line="6" selection-start-column="2" selection-end-line="6" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FrontEnd/Seller/src/app/app.component.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" selection-start-line="5" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FrontEnd/Seller/src/app/app.component.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FrontEnd/Seller/src/app/view/main/main.component.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="62" column="62" selection-end-line="89" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FrontEnd/Seller/src/app/app.module.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="43" selection-start-line="4" selection-start-column="43" selection-end-line="4" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FrontEnd/Users/src/app/routing/routing.module.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="3" selection-start-line="19" selection-start-column="3" selection-end-line="19" selection-end-column="3" />
+        <state relative-caret-position="340">
+          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
           <folding>
-            <element signature="e#0#41#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/FrontEnd/Seller/src/app/view/manage-gig/manage-gig.component.html">
+    <entry file="file://$PROJECT_DIR$/BackEnd/src/main/java/lk/ijse/autopart/rest/service/impl/SellerServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+        <state relative-caret-position="697">
+          <caret line="41" column="56" lean-forward="true" selection-start-line="41" selection-start-column="56" selection-end-line="41" selection-end-column="56" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/FrontEnd/Users/angular.json">
+    <entry file="file://$PROJECT_DIR$/FrontEnd/Admin/src/app/view/manage-sellers/manage-sellers.component.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="461">
-          <caret line="33" column="12" lean-forward="true" selection-start-line="33" selection-start-column="12" selection-end-line="33" selection-end-column="12" />
+        <state relative-caret-position="153">
+          <caret line="9" column="14" lean-forward="true" selection-start-line="9" selection-start-column="14" selection-end-line="9" selection-end-column="14" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/FrontEnd/Seller/angular.json">
+    <entry file="file://$PROJECT_DIR$/BackEnd/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="30" column="76" lean-forward="true" selection-start-line="26" selection-start-column="14" selection-end-line="30" selection-end-column="76" />
+        <state relative-caret-position="153">
+          <caret line="9" column="18" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BackEnd/src/main/java/lk/ijse/autopart/rest/Demo.java" />
+    <entry file="file://$PROJECT_DIR$/BackEnd/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="32" selection-start-line="3" selection-start-column="32" selection-end-line="3" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BackEnd/src/main/java/lk/ijse/autopart/rest/dto/SellerDTO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="86" column="18" selection-start-line="86" selection-start-column="18" selection-end-line="86" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BackEnd/src/main/java/lk/ijse/autopart/rest/entity/Seller.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="28" lean-forward="true" selection-start-line="9" selection-start-column="3" selection-end-line="19" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BackEnd/src/main/java/lk/ijse/autopart/rest/main/WebAppConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BackEnd/src/main/java/lk/ijse/autopart/rest/main/WebAppInitializer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="30" selection-start-line="17" selection-start-column="30" selection-end-line="17" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BackEnd/src/main/java/lk/ijse/autopart/rest/main/WebRootConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" column="28" lean-forward="true" selection-start-line="21" selection-start-column="28" selection-end-line="21" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BackEnd/src/main/java/lk/ijse/autopart/rest/dto/SellerAccountDTO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="568">
+          <caret line="37" column="18" selection-start-line="37" selection-start-column="18" selection-end-line="37" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BackEnd/src/main/java/lk/ijse/autopart/rest/entity/SellerAccount.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="24">
+          <caret line="10" column="28" lean-forward="true" selection-start-line="9" selection-start-column="4" selection-end-line="10" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BackEnd/src/main/java/lk/ijse/autopart/rest/repository/SellerRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BackEnd/src/main/java/lk/ijse/autopart/rest/service/impl/SellerAccountServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="560">
+          <caret line="46" column="53" selection-start-line="46" selection-start-column="53" selection-end-line="46" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BackEnd/src/main/java/lk/ijse/autopart/rest/repository/SellerAccountRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BackEnd/src/main/java/lk/ijse/autopart/rest/entity/Customer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="8" column="7" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BackEnd/src/main/java/lk/ijse/autopart/rest/service/impl/CustomerServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="32" selection-start-line="2" selection-start-column="32" selection-end-line="2" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FrontEnd/Users/package-lock.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="50" column="29" lean-forward="true" selection-start-line="50" selection-start-column="29" selection-end-line="50" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FrontEnd/Admin/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="50" lean-forward="true" selection-start-line="20" selection-start-column="50" selection-end-line="20" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FrontEnd/Admin/package-lock.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="731" column="6" lean-forward="true" selection-start-line="731" selection-start-column="6" selection-end-line="731" selection-end-column="6" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/FrontEnd/Admin/angular.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
-          <caret line="31" column="14" selection-start-line="31" selection-start-column="14" selection-end-line="31" selection-end-column="14" />
+        <state relative-caret-position="472">
+          <caret line="37" column="58" selection-start-line="37" selection-start-column="58" selection-end-line="37" selection-end-column="58" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FrontEnd/Admin/src/app/app.component.ts">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/FrontEnd/Admin/src/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FrontEnd/Seller/src/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="7" lean-forward="true" selection-start-line="18" selection-start-column="7" selection-end-line="18" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FrontEnd/Seller/src/app/app.component.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="98">
-          <caret line="51" column="29" lean-forward="true" selection-start-line="51" selection-start-column="29" selection-end-line="51" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FrontEnd/Admin/src/app/view/dashboard/dashboard.component.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1445">
-          <caret line="85" selection-start-line="85" selection-end-line="85" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FrontEnd/Seller/src/app/view/dashboard/dashboard.component.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="527">
-          <caret line="34" column="37" lean-forward="true" selection-end-line="85" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FrontEnd/Seller/src/app/app-routing/app-routing.module.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="18" selection-start-line="7" selection-start-column="9" selection-end-line="7" selection-end-column="18" />
-          <folding>
-            <element signature="e#0#41#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="170">
+          <caret line="10" column="41" selection-start-line="10" selection-start-column="41" selection-end-line="10" selection-end-column="41" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/FrontEnd/Admin/src/app/routing/routing.module.ts">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="9" lean-forward="true" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FrontEnd/Admin/src/app/view/manage-sellers/manage-sellers.component.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="21" lean-forward="true" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FrontEnd/Admin/node_modules/ngx-pagination/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-286" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FrontEnd/Admin/src/app/dtos/seller.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="20" lean-forward="true" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BackEnd/src/main/java/lk/ijse/autopart/rest/controller/SellerController.java">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
-          <caret line="15" column="34" selection-start-line="15" selection-start-column="34" selection-end-line="15" selection-end-column="34" />
-          <folding>
-            <element signature="e#0#41#0" expanded="true" />
-          </folding>
+          <caret line="15" column="14" lean-forward="true" selection-start-line="15" selection-start-column="14" selection-end-line="15" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BackEnd/src/main/java/lk/ijse/autopart/rest/controller/SellerAccountController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="12" column="46" selection-start-line="12" selection-start-column="25" selection-end-line="12" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BackEnd/src/main/java/lk/ijse/autopart/rest/controller/CustomerController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="31" selection-start-line="2" selection-start-column="31" selection-end-line="2" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FrontEnd/Admin/src/app/view/manage-sellers/manage-sellers.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="22" column="22" lean-forward="true" selection-start-line="22" selection-start-column="22" selection-end-line="22" selection-end-column="22" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/FrontEnd/Admin/src/app/app.module.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="76" selection-start-line="6" selection-start-column="54" selection-end-line="6" selection-end-column="76" />
+        <state relative-caret-position="416">
+          <caret line="31" column="4" lean-forward="true" selection-start-line="31" selection-start-column="4" selection-end-line="31" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FrontEnd/Admin/src/app/services/seller.service.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="8">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FrontEnd/Admin/src/app/view/manage-sellers/manage-sellers.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="389">
+          <caret line="106" column="18" lean-forward="true" selection-start-line="106" selection-start-column="18" selection-end-line="106" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FrontEnd/Admin/src/app/view/dashboard/dashboard.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="25" lean-forward="true" selection-start-line="16" selection-start-column="25" selection-end-line="16" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BackEnd/src/main/java/lk/ijse/autopart/rest/dto/PaymentsDTO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BackEnd/src/main/java/lk/ijse/autopart/rest/entity/Payments.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="21" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BackEnd/src/main/java/lk/ijse/autopart/rest/dto/GigDTO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="19" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BackEnd/src/main/java/lk/ijse/autopart/rest/entity/CustomerAccount.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="11" column="28" lean-forward="true" selection-start-line="9" selection-start-column="3" selection-end-line="11" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BackEnd/src/main/java/lk/ijse/autopart/rest/dto/CustomerDTO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="74" column="18" selection-start-line="74" selection-start-column="18" selection-end-line="74" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BackEnd/src/main/java/lk/ijse/autopart/rest/dto/CustomerAccountDTO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="38" column="18" selection-start-line="38" selection-start-column="18" selection-end-line="38" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BackEnd/src/main/java/lk/ijse/autopart/rest/entity/Gig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BackEnd/src/main/java/lk/ijse/autopart/rest/repository/CustomerRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="73" selection-start-line="5" selection-start-column="73" selection-end-line="5" selection-end-column="73" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BackEnd/src/main/java/lk/ijse/autopart/rest/service/CustomerService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="34" lean-forward="true" selection-start-line="2" selection-start-column="34" selection-end-line="2" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BackEnd/src/main/java/lk/ijse/autopart/rest/service/SellerAccountService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BackEnd/src/main/java/lk/ijse/autopart/rest/service/impl/SellerServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="215">
+          <caret line="41" column="56" selection-start-line="41" selection-start-column="56" selection-end-line="41" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BackEnd/src/main/java/lk/ijse/autopart/rest/service/SellerService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/FrontEnd/Admin/src/app/app.component.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-78">
-          <caret line="59" column="74" selection-start-line="59" selection-start-column="74" selection-end-line="59" selection-end-column="74" />
+        <state relative-caret-position="1173">
+          <caret line="69" column="27" lean-forward="true" selection-start-line="69" selection-start-column="27" selection-end-line="69" selection-end-column="27" />
         </state>
       </provider>
     </entry>
-  </component>
-  <component name="masterDetails">
-    <states>
-      <state key="ArtifactsStructureConfigurable.UI">
-        <settings>
-          <artifact-editor />
-          <last-edited>BackEnd:war</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-                <option value="0.5" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="FacetStructureConfigurable.UI">
-        <settings>
-          <last-edited>Web (BackEnd)|Web</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="GlobalLibrariesConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="JdkListConfigurable.UI">
-        <settings>
-          <last-edited>1.8</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ModuleStructureConfigurable.UI">
-        <settings>
-          <last-edited>Auto-Part</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-                <option value="0.6" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ProjectLibrariesConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-    </states>
+    <entry file="file://$PROJECT_DIR$/FrontEnd/Users/src/index.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FrontEnd/Users/src/app/app.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="11" lean-forward="true" selection-start-line="20" selection-start-column="11" selection-end-line="20" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
   </component>
 </project>
