@@ -1,0 +1,23 @@
+#tblSellers tbody{
+  background-color: white;
+}
+
+#tblSellers tr{
+  cursor: pointer;
+}
+
+#tblSellers tr th:first-child, #tblSellers tr td:first-child{
+  text-align: center;
+}
+
+#tblSellers tr td:last-child{
+  text-align: center;
+}
+
+#tblSellers tr td:last-child:hover{
+  color: red;
+}
+
+.selected{
+  background-color: lightgray;
+}

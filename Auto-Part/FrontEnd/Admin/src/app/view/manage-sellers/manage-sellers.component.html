@@ -1,3 +1,120 @@
-<p>
-  manage-sellers works!
-</p>
+<!-- Content Header (Page header) -->
+<div class="content-header">
+  <div class="container-fluid">
+    <div class="row mb-2">
+      <div class="col-sm-6">
+        <h1 class="m-0 text-dark">Manage Seller</h1>
+      </div><!-- /.col -->
+      <div class="col-sm-6">
+        <ol class="breadcrumb float-sm-right">
+          <li class="breadcrumb-item"><a href="#">Home</a></li>
+          <li class="breadcrumb-item active">Manage Seller</li>
+        </ol>
+      </div><!-- /.col -->
+    </div><!-- /.row -->
+  </div><!-- /.container-fluid -->
+</div>
+<!-- /.content-header -->
+
+<!-- Main content -->
+<section class="content">
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-md-6 col-12">
+
+        <div class="card card-primary">
+          <div class="card-header">
+            <h3 class="card-title">Seller Information</h3>
+
+          </div>
+          <!-- /.card-header -->
+          <div class="card-body">
+            <div class="row">
+              <div class="col col-12">
+                <form >
+                  <p class="form-group">
+                    <label for="txtNic">Seller NIC</label>
+                    <input  name="txtNic"  id="txtNic"
+                           class="form-control">
+                  </p>
+
+                  <p class="form-group">
+                    <label for="txtName">Seller Name</label>
+                    <input name="txtName"  id="txtName" class="form-control">
+                  </p>
+
+                  <p class="form-group">
+                    <label for="txtEmail">Seller Email</label>
+                    <input name="txtEmail" id="txtEmail" type="email"
+                           class="form-control">
+                  </p>
+
+                  <p class="form-group">
+                    <label for="txtAddress">Seller Address</label>
+                    <input name="txtAddress"  id="txtAddress" class="form-control">
+                  </p>
+
+                  <p class="form-group">
+                    <label for="txtContactNo">Seller ContactNo</label>
+                    <input name="txtContactNo"  id="txtContactNo" class="form-control">
+                  </p>
+
+                  <p class="form-group">
+                    <label for="txtCompanny">Seller Companny</label>
+                    <input name="txtCompanny"  id="txtCompanny" class="form-control">
+                  </p>
+
+                  <div>
+                    <button type="submit" class="btn btn-primary">Save</button>
+                    &nbsp;
+                    <button  type="button" class="btn btn-warning">Clear</button>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+          <!-- /.card-body -->
+        </div>
+        <!-- /.card -->
+
+      </div>
+      <div class="col-md-6 col-12">
+
+        <table id="tblSellers" class="table table-bordered table-hover">
+          <thead>
+          <tr>
+            <th>Seller NIC</th>
+            <th>Seller Name</th>
+            <th>Seller Email</th>
+            <th>Seller Address</th>
+            <th>Seller ContactNo</th>
+            <th>Seller Companny</th>
+            <th>Action</th>
+          </tr>
+          </thead>
+          <tbody>
+          <tr *ngFor="let seller of sellers | paginate: { itemsPerPage: 7, currentPage: p }">
+            <td>{{seller.sNic}}</td>
+            <td>{{seller.sName}}</td>
+            <td>{{seller.sEmail}}</td>
+            <td>{{seller.sAddress}}</td>
+            <td>{{seller.sContactNo}}</td>
+            <td>{{seller.sCompany}}</td>
+            <td>
+              <i  class="fa fa-trash fa-2x"></i>
+            </td>
+          </tr>
+          </tbody>
+          <tfoot>
+          <tr>
+            <td colspan="6">
+                <pagination-controls (pageChange)="p = $event"></pagination-controls>
+            </td>
+          </tr>
+          </tfoot>
+        </table>
+      </div>
+    </div>
+  </div><!-- /.container-fluid -->
+</section>
+
