@@ -11,4 +11,6 @@ export class Seller {
   sContactNo:string;
 
   sCompany:string;
+
 }
+
