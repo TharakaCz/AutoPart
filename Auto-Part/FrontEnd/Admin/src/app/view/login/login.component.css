@@ -1,0 +1,23 @@
+.loginbody{
+  background-image: url("../login/Admin-Panel.png");
+  width: 100%;
+  height: 100%;
+  position: absolute;
+}
+
+b{
+  color: white;
+}
+
+a{
+  color: white;
+}
+
+.contex{
+  background-color: rgba(255,255,255,0.7);
+
+}
+
+.contex:hover{
+  background-color: rgba(255,255,255,0.8);
+}
