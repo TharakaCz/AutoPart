@@ -17,14 +17,18 @@ public class Customer {
 
     private String cContact;
 
+    private String cPassword;
+
     public Customer() {
     }
 
-    public Customer(String cName, String cEmail, String cAddress, String cContact) {
-        this.setcName(cName);
-        this.setcEmail(cEmail);
-        this.setcAddress(cAddress);
-        this.setcContact(cContact);
+    public Customer(String cNic) {
+        this.setcNic(cNic);
+    }
+
+    public Customer(String cNic, String cPassword) {
+        this.setcNic(cNic);
+        this.setcPassword(cPassword);
     }
 
     public Customer(String cNic, String cName, String cEmail, String cAddress, String cContact) {
@@ -33,6 +37,15 @@ public class Customer {
         this.setcEmail(cEmail);
         this.setcAddress(cAddress);
         this.setcContact(cContact);
+    }
+
+    public Customer(String cNic, String cName, String cEmail, String cAddress, String cContact, String cPassword) {
+        this.setcNic(cNic);
+        this.setcName(cName);
+        this.setcEmail(cEmail);
+        this.setcAddress(cAddress);
+        this.setcContact(cContact);
+        this.setcPassword(cPassword);
     }
 
 
@@ -76,6 +89,14 @@ public class Customer {
         this.cContact = cContact;
     }
 
+    public String getcPassword() {
+        return cPassword;
+    }
+
+    public void setcPassword(String cPassword) {
+        this.cPassword = cPassword;
+    }
+
     @Override
     public String toString() {
         return "Customer{" +
@@ -84,6 +105,7 @@ public class Customer {
                 ", cEmail='" + cEmail + '\'' +
                 ", cAddress='" + cAddress + '\'' +
                 ", cContact='" + cContact + '\'' +
+                ", cPassword='" + cPassword + '\'' +
                 '}';
     }
 }

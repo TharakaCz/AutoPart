@@ -6,6 +6,6 @@ import org.springframework.data.jpa.repository.Query;
 
 public interface SellerAccountRepository  extends JpaRepository<SellerAccount,String> {
 
-    @Query("SELECT count (sa.email) FROM SellerAccount sa")
+    @Query("SELECT count (sa.aNic) FROM SellerAccount sa")
     long getAllSellerAccount();
 }

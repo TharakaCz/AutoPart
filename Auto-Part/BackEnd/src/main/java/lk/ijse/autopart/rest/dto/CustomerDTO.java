@@ -2,6 +2,7 @@ package lk.ijse.autopart.rest.dto;
 
 public class CustomerDTO {
 
+
     private String cNic;
 
     private String cName;
@@ -12,14 +13,18 @@ public class CustomerDTO {
 
     private String cContact;
 
+    private String cPassword;
+
     public CustomerDTO() {
     }
 
-    public CustomerDTO(String cName, String cEmail, String cAddress, String cContact) {
-        this.setcName(cName);
-        this.setcEmail(cEmail);
-        this.setcAddress(cAddress);
-        this.setcContact(cContact);
+    public CustomerDTO(String cNic) {
+        this.setcNic(cNic);
+    }
+
+    public CustomerDTO(String cNic, String cPassword) {
+        this.setcNic(cNic);
+        this.setcPassword(cPassword);
     }
 
     public CustomerDTO(String cNic, String cName, String cEmail, String cAddress, String cContact) {
@@ -28,6 +33,15 @@ public class CustomerDTO {
         this.setcEmail(cEmail);
         this.setcAddress(cAddress);
         this.setcContact(cContact);
+    }
+
+    public CustomerDTO(String cNic, String cName, String cEmail, String cAddress, String cContact, String cPassword) {
+        this.setcNic(cNic);
+        this.setcName(cName);
+        this.setcEmail(cEmail);
+        this.setcAddress(cAddress);
+        this.setcContact(cContact);
+        this.setcPassword(cPassword);
     }
 
 
@@ -71,6 +85,14 @@ public class CustomerDTO {
         this.cContact = cContact;
     }
 
+    public String getcPassword() {
+        return cPassword;
+    }
+
+    public void setcPassword(String cPassword) {
+        this.cPassword = cPassword;
+    }
+
     @Override
     public String toString() {
         return "CustomerDTO{" +
@@ -79,6 +101,7 @@ public class CustomerDTO {
                 ", cEmail='" + cEmail + '\'' +
                 ", cAddress='" + cAddress + '\'' +
                 ", cContact='" + cContact + '\'' +
+                ", cPassword='" + cPassword + '\'' +
                 '}';
     }
 }

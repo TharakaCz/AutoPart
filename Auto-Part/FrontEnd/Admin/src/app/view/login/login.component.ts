@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
-import {AdminloginService} from "../../services/adminlogin.service";
 import {Admin} from "../../dtos/admin";
+import {AdminloginService} from "../../services/adminlogin.service";
 
 @Component({
   selector: 'app-login',
@@ -24,4 +24,5 @@ export class LoginComponent implements OnInit {
       }
     )
   }
+
 }

@@ -1,7 +1,6 @@
 package lk.ijse.autopart.rest.service.impl;
 
 import lk.ijse.autopart.rest.dto.SellerAccountDTO;
-import lk.ijse.autopart.rest.entity.Seller;
 import lk.ijse.autopart.rest.entity.SellerAccount;
 import lk.ijse.autopart.rest.repository.SellerAccountRepository;
 import lk.ijse.autopart.rest.service.SellerAccountService;
@@ -23,41 +22,51 @@ public class SellerAccountServiceImpl implements SellerAccountService {
     @Override
     public ArrayList<SellerAccountDTO> getAllSellerAcccounts() {
         List<SellerAccount> accounts = repository.findAll();
+        ArrayList<SellerAccountDTO>alSellerAccount = new ArrayList<>();
 
-        ArrayList<SellerAccountDTO> allSellerAccounts=new ArrayList<>();
-
-        for (SellerAccount sellerAccount: accounts){
-            SellerAccountDTO sellerAccountDTO = new SellerAccountDTO(sellerAccount.getEmail(),
-                    sellerAccount.getPassword());
-
-            allSellerAccounts.add(sellerAccountDTO);
+        for (SellerAccount sellerAccount : accounts){
+            SellerAccountDTO sellerAccountDTO = new SellerAccountDTO(sellerAccount.getaNic(),
+                    sellerAccount.getaName(),
+                    sellerAccount.getaPackageType(),
+                    sellerAccount.getApassword(),
+                    sellerAccount.getaOdate(),
+                    sellerAccount.getaExpaierDate());
+            alSellerAccount.add(sellerAccountDTO);
         }
-        return allSellerAccounts;
+        return alSellerAccount;
     }
 
     @Override
-
-    public SellerAccountDTO getSellerAccounts(String email) {
-        SellerAccount sellerAccount = repository.findById(email).get();
-        SellerAccountDTO sellerAccountDTO = new SellerAccountDTO(sellerAccount.getEmail(),sellerAccount.getPassword());
+    public SellerAccountDTO getSellerAccounts(String aNic) {
+        SellerAccount selleraccount = repository.findById(aNic).get();
+        SellerAccountDTO sellerAccountDTO = new SellerAccountDTO(selleraccount.getaNic(),
+                selleraccount.getaName(),
+                selleraccount.getaPackageType(),
+                selleraccount.getApassword(),
+                selleraccount.getaOdate(),
+                selleraccount.getaExpaierDate());
         return sellerAccountDTO;
     }
 
     @Override
     @Transactional(propagation = Propagation.REQUIRED)
-    public boolean deleteSellerAccount(String email) {
-       repository.deleteById(email);
-       return true;
+    public boolean deleteSellerAccount(String aNic) {
+        repository.deleteById(aNic);
+        return true;
     }
 
     @Override
     @Transactional(propagation = Propagation.REQUIRED)
-    public boolean saveSellerAccount(SellerAccountDTO accountDTO) {
-        SellerAccount sellerAccount = new SellerAccount(accountDTO.getEmail(),
-                accountDTO.getPassword());
+    public boolean saveSellerAccount(SellerAccountDTO sellerAccount) {
+       SellerAccount sellerAccount1 = new SellerAccount(sellerAccount.getaNic(),
+               sellerAccount.getaName(),
+               sellerAccount.getaPackageType(),
+               sellerAccount.getApassword(),
+               sellerAccount.getaOdate(),
+               sellerAccount.getaExpaierDate());
+       repository.save(sellerAccount1);
 
-        repository.save(sellerAccount);
-        return true;
+       return true;
     }
 
     @Override

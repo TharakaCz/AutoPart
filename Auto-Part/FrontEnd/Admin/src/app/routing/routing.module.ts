@@ -1,12 +1,12 @@
 import { NgModule } from '@angular/core';
 import {RouterModule, Routes} from "@angular/router";
 import {MainComponent} from "../view/main/main.component";
+import {AdminGuard} from "../guards/admin.guard";
 import {DashboardComponent} from "../view/dashboard/dashboard.component";
 import {ManageSellersComponent} from "../view/manage-sellers/manage-sellers.component";
 import {ManageSellersAccountComponent} from "../view/manage-sellers-account/manage-sellers-account.component";
 import {ManageGigsComponent} from "../view/manage-gigs/manage-gigs.component";
 import {LoginComponent} from "../view/login/login.component";
-import {AdminGuard} from "../guards/admin.guard";
 
 const appRoutes: Routes = [
   {

@@ -2,35 +2,42 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
-import { ManageGigComponent } from './view/manage-gig/manage-gig.component';
-import { ManageItemsComponent } from './view/manage-items/manage-items.component';
-import { PaymentsComponent } from './view/payments/payments.component';
-import { ManageOrdersComponent } from './view/manage-orders/manage-orders.component';
+import { LoginComponent } from './view/login/login.component';
 import { MainComponent } from './view/main/main.component';
 import { DashboardComponent } from './view/dashboard/dashboard.component';
-import { LoginComponent } from './view/login/login.component';
- import {AppRoutingModule} from "./app-routing/app-routing.module";
-
-
+import { PaymentsComponent } from './view/payments/payments.component';
+import { ManageGigsComponent } from './view/manage-gigs/manage-gigs.component';
+import {HttpClientModule} from "@angular/common/http";
+import {FormsModule} from "@angular/forms";
+import {AlertModule} from "ngx-alerts";
+import {NgxPaginationModule} from "ngx-pagination";
+import {LoginGuard} from "./guards/login.guard";
+import {RoutingModule} from "./routing/routing.module";
+import {SellerLoginService} from "./services/seller-login.service";
+import {PaymentsService} from "./services/payments.service";
 
 @NgModule({
   declarations: [
     AppComponent,
-    ManageGigComponent,
-    ManageItemsComponent,
-    PaymentsComponent,
-    ManageOrdersComponent,
+    LoginComponent,
     MainComponent,
     DashboardComponent,
-    LoginComponent
-
-
+    PaymentsComponent,
+    ManageGigsComponent
   ],
   imports: [
     BrowserModule,
-     AppRoutingModule
+    HttpClientModule,
+    RoutingModule,
+    FormsModule,
+    AlertModule,
+    NgxPaginationModule
   ],
-  providers: [],
+  providers: [
+    PaymentsService,
+    SellerLoginService,
+    LoginGuard
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

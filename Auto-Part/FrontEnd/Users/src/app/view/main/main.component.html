@@ -1,0 +1,61 @@
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark navb">
+  <a class="navbar-brand" href="#">
+    <img src="../assets/images/logo/Auto%20Spare%20Part.png" width="70" height="30" alt="">
+    Auto Part</a>
+
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor02" aria-controls="navbarColor02" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarColor02">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item">
+        <a class="nav-link" routerLink="dashboard" routerLinkActive="active"> HOME</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link"  routerLink="gig-page" routerLinkActive="active">GIG PAGE</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Pricing</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#about">About</a>
+      </li>
+
+      <li class="nav-item">
+        <a class="nav-link" href="#services">Service</a>
+      </li>
+
+      <!--<li class="nav-item">-->
+      <!--<a class="nav-link" routerLink="register" routerLinkActive="active"><i class="fa fa-sign-in"></i>&nbsp;&nbsp;Sigin-up</a>-->
+      <!--</li>-->
+
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          <i class="fa fa-sign-in"></i>
+          Sigin-up
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" routerLink="user-registation" routerLinkActive="active">Create Account</a>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" routerLink="user-login" routerLinkActive="active" >Login</a>
+        </div>
+      </li>
+
+      <li class="nav-item">
+        <a class="nav-link" ><i class="fa fa-hacker-news"></i>&nbsp;&nbsp;Complains</a>
+      </li>
+
+      <li class="nav-item">
+        <a class="nav-link" ><i class="fa fa-users"></i>&nbsp;&nbsp;Admins</a>
+      </li>
+    </ul>
+    <form class="form-inline my-2 my-lg-0">
+      <input class="form-control mr-sm-2" type="text" placeholder="Search">
+      <button class="btn btn-secondary my-2 my-sm-0 fa fa-search fa-1x" type="button"></button>
+    </form>
+  </div>
+</nav>
+<div class="content">
+  <router-outlet></router-outlet>
+</div>

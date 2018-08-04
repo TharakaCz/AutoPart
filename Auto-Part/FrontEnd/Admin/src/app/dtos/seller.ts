@@ -12,5 +12,5 @@ export class Seller {
 
   sCompany:string;
 
-}
 
+}

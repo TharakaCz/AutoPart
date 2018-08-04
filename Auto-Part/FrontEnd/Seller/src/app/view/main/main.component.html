@@ -1,89 +1,107 @@
+<div class="wrapper log">
 
+  <!-- Navbar -->
+  <nav class="main-header navbar navbar-expand bg-white navbar-light border-bottom">
+    <!-- Left navbar links -->
+    <ul class="navbar-nav">
+      <li class="nav-item">
+        <a class="nav-link" data-widget="pushmenu" href="#"><i class="fa fa-bars"></i></a>
+      </li>
 
+      <form class="form-inline ml-3">
+        <div class="input-group input-group-sm">
+          <input class="form-control form-control-navbar" type="search" placeholder="Search" aria-label="Search">
+          <div class="input-group-append">
+            <button class="btn btn-navbar" type="submit">
+              <i class="fa fa-search"></i>
+            </button>
+          </div>
+        </div>
+      </form>
 
+    </ul>
+  </nav>
+  <!-- /.navbar -->
 
-
-<header class="main-header">
-  <!-- Logo -->
-  <a href="index2.html" class="logo">
-    <!-- mini logo for sidebar mini 50x50 pixels -->
-    <span class="logo-mini"><b>Auto</b>Part</span>
-    <!-- logo for regular state and mobile devices -->
-    <span class="logo-lg"><b>Auto</b>Part</span>
-  </a>
-  <!-- Header Navbar: style can be found in header.less -->
-  <nav class="navbar navbar-static-top">
-    <!-- Sidebar toggle button-->
-    <a href="#" class="sidebar-toggle" data-toggle="push-menu" role="button">
-      <span class="sr-only">Toggle navigation</span>
+  <!-- Main Sidebar Container -->
+  <aside class="main-sidebar sidebar-dark-primary elevation-4">
+    <!-- Brand Logo -->
+    <a href="/" class="brand-link text-center">
+      <span class="brand-text font-weight-light">Seller Panel</span>
     </a>
 
-    <div class="navbar-custom-menu">
-      <ul class="nav navbar-nav">
-        <!-- Messages: style can be found in dropdown.less-->
+    <!-- Sidebar -->
+    <div class="sidebar">
 
-      </ul>
+      <!-- Sidebar Menu -->
+      <nav class="mt-2">
+        <ul class="nav nav-pills nav-sidebar flex-column" data-widget="treeview" role="menu" data-accordion="false">
+          <!-- Add icons to the links using the .nav-icon class
+               with font-awesome or any other icon font library -->
+          <li class="nav-item">
+            <a routerLink="dashboard" routerLinkActive="active" href="#" class="nav-link">
+              <i class="nav-icon fa fa-dashboard"></i>
+              <p>
+                Dashboard
+              </p>
+            </a>
+          </li>
+
+
+          <li class="nav-item">
+            <a routerLink="manage-gigs" routerLinkActive="active" href="#" class="nav-link">
+              <i class="nav-icon fa fa-sitemap"></i>
+              <p>
+                Manage gigs
+              </p>
+            </a>
+          </li>
+
+          <li class="nav-item">
+            <a routerLink="payments" routerLinkActive="" href="#" class="nav-link">
+              <i class="nav-icon fa fa-money"></i>
+              <p>
+                Payments
+              </p>
+            </a>
+          </li>
+
+          <li class="nav-item">
+            <a  href="#" (click)="logout()" class="nav-link">
+              <i class="nav-icon fa fa-sign-out"></i>
+              <p >
+                Logout
+              </p>
+            </a>
+          </li>
+        </ul>
+      </nav>
+      <!-- /.sidebar-menu -->
     </div>
-  </nav>
-</header>
+    <!-- /.sidebar -->
+  </aside>
 
+  <!-- Content Wrapper. Contains page content -->
+  <div class="content-wrapper">
+    <router-outlet></router-outlet>
+  </div>
 
+  <!-- /.content-wrapper -->
+  <footer class="main-footer">
+    <strong>Copyright &copy; 2018 <a href="http://ijse.lk">IJSE</a>.</strong>
+    All rights reserved.
+    <div class="float-right d-none d-sm-inline-block">
+      <b>Version</b> 1.0.0
+    </div>
+  </footer>
 
+  <!-- Control Sidebar -->
+  <aside class="control-sidebar control-sidebar-dark">
+    <!-- Control sidebar content goes here -->
+  </aside>
+  <!-- /.control-sidebar -->
+</div>
+<!-- ./wrapper -->
 
-<aside class="main-sidebar aside">
-  <!-- sidebar: style can be found in sidebar.less -->
-  <section class="sidebar">
-    <!-- Sidebar user panel -->
-    <!--<div class="user-panel">-->
-    <!--<div class="pull-left image">-->
-    <!--<img src="" class="img-circle" alt="User Image">-->
-    <!--</div>-->
-    <!--<div class="pull-left info">-->
-    <!--<p></p>-->
-    <!--<a href="#"><i class="fa fa-circle text-success"></i></a>-->
-    <!--</div>-->
-    <!--</div>-->
-
-    <!-- sidebar menu: : style can be found in sidebar.less -->
-    <ul class="sidebar-menu" data-widget="tree">
-      <li class="header"></li>
-      <li class="active treeview">
-        <a href="#" routerLinkActive="">
-          <i class="fa fa-dashboard"></i> <span>Dashboard</span>
-        </a>
-
-      <li class="header"></li>
-      <li class="active treeview">
-        <a href="#">
-          <i class="fa fa-list"></i> <span>Customers Orders</span>
-        </a>
-
-      <li class="header"></li>
-      <li class="active treeview">
-        <a href="#" routerLink="manage-gig" routerLinkActive="">
-          <i class="fa fa-newspaper-o"></i> <span>Manage Gig</span>
-        </a>
-
-      <li class="header"></li>
-      <li class="active treeview">
-        <a href="#">
-          <i class="fa fa-life-ring"></i> <span>Manage Items</span>
-        </a>
-
-      <li class="header"></li>
-      <li class="active treeview">
-        <a href="#">
-          <i class="fa fa-money"></i> <span>Payment</span>
-        </a>
-
-      <li class="header"></li>
-      <li class="active treeview">
-        <a href="#">
-          <i class="fa fa-sign-out"></i> <span>log out</span>
-        </a>
-    </ul>
-  </section>
-  <!-- /.sidebar -->
-</aside>
 
 
