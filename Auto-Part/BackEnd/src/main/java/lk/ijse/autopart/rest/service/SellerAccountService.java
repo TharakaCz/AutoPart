@@ -8,11 +8,11 @@ public interface SellerAccountService {
 
     public ArrayList<SellerAccountDTO> getAllSellerAcccounts();
 
-    public SellerAccountDTO getSellerAccounts(String email);
+    public SellerAccountDTO getSellerAccounts(String aNic);
 
-    public boolean deleteSellerAccount(String email);
+    public boolean deleteSellerAccount(String aNic);
 
-    public boolean saveSellerAccount(SellerAccountDTO accountDTO);
+    public boolean saveSellerAccount(SellerAccountDTO sellerAccount);
 
     public long getAllSellerAccount();
 }

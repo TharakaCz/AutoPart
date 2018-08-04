@@ -17,4 +17,5 @@ public interface SellerService {
     public long getTotalSellers();
 
 
+
 }

@@ -1,0 +1,40 @@
+<div class="loginbody">
+  <div class="rgb">
+  <div class="login-box login">
+    <div class="login-logo">
+      <a href="../../index2.html" style="color: white;font-weight: bold"><b class="typewrite" data-period="2000" data-type='["Seller"]' style="color: black;font-weight: bold"></b>Login</a>
+    </div>
+
+    <!-- /.login-logo -->
+    <div class="card contex">
+      <div class="card-body login-card-body">
+        <p class="login-box-msg typewrite" data-period="2000" data-type='["Sign in to start your session"]'></p>
+
+        <form method="post" #frmLogin="ngForm" action="" (ngSubmit)="login()">
+          <div class="form-group has-feedback">
+            <input  name="txtNic" type="text" class="form-control" [(ngModel)]="seller.aNic" placeholder="Input youer Nic">
+            <span class="fa fa-user form-control-feedback"></span>
+          </div>
+          <div class="form-group has-feedback">
+            <input  name="txtPassword" type="password" class="form-control" [(ngModel)]="seller.apassword" placeholder="Input Youer Password">
+            <span class="fa fa-lock form-control-feedback"></span>
+          </div>
+          <div class="row">
+            <!-- /.col -->
+            <div class="col-4">
+              <button type="submit" class="btn btn-primary btn-block btn-flat">Sign In</button>
+            </div>
+            <!-- /.col -->
+          </div>
+        </form>
+        <div *ngIf="failed" class="alert alert-danger alert-dismissible" style="margin-top:10px;">
+          <h6><i class="icon fa fa-ban"></i> Invalid Login Credentials !</h6>
+          Please enter valid login credentials to login
+        </div>
+      </div>
+      <!-- /.login-card-body -->
+    </div>
+  </div>
+  <!-- /.login-box -->
+  </div>
+</div>

@@ -1,0 +1,71 @@
+<!-- Main content -->
+<br><br>
+<section class="content container">
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-md-12 col-12">
+
+        <div class="card card-primary">
+          <div class="card-header">
+            <h3 class="card-title">Registation Form</h3>
+
+          </div>
+          <ngx-alerts></ngx-alerts>
+          <!-- /.card-header -->
+          <div class="card-body">
+            <div class="row">
+              <div class="col col-12">
+                <form #frmUsers="ngForm" (ngSubmit)="saveUsers()">
+                  <p class="form-group">
+                    <label for="txtNic">Youer NIC</label>
+                    <input  name="txtNic"  id="txtNic"
+                            class="form-control"  [(ngModel)]="selectedUsers.cNic" required />
+                  </p>
+
+                  <p class="form-group">
+                    <label for="txtName">Youer Name</label>
+                    <input name="txtName"  id="txtName" class="form-control" [(ngModel)]="selectedUsers.cName" required />
+                  </p>
+
+                  <p class="form-group">
+                    <label for="txtEmail">Youer Email</label>
+                    <input name="txtEmail" id="txtEmail" type="email"
+                           class="form-control" [(ngModel)]="selectedUsers.cEmail" required />
+                  </p>
+
+                  <p class="form-group">
+                    <label for="txtAddress">Youer Address</label>
+                    <input name="txtAddress"  id="txtAddress" class="form-control" [(ngModel)]="selectedUsers.cAddress" required />
+                  </p>
+
+                  <p class="form-group">
+                    <label for="txtContactNo">Youer ContactNo</label>
+                    <input name="txtContactNo"  id="txtContactNo" class="form-control" [(ngModel)]="selectedUsers.cContact" required />
+                  </p>
+
+                  <p class="form-group">
+                    <label for="txtPassword">Youer Password</label>
+                    <input name="txtPassword"  id="txtPassword" class="form-control" [(ngModel)]="selectedUsers.cPassword" required />
+                  </p>
+
+                  <!--<p class="form-group">-->
+                  <!--<label for="txtConfirm">Re-Enter Youer Password</label>-->
+                  <!--<input   id="txtConfirm" class="form-control" >-->
+                  <!--</p>-->
+
+                  <div>
+                    <button type="submit" class="btn btn-primary">Save</button>
+                    &nbsp;
+                    <button class="btn btn-warning">Clear</button>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+          <!-- /.card-body -->
+        </div>
+        <!-- /.card -->
+      </div>
+    </div>
+  </div><!-- /.container-fluid -->
+</section>

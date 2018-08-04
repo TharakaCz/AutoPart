@@ -2,7 +2,7 @@ import { Injectable } from '@angular/core';
 import {HttpClient} from "@angular/common/http";
 import {Router} from "@angular/router";
 import {Admin} from "../dtos/admin";
-import {Observable} from "rxjs/internal/Observable";
+import {Observable} from "rxjs";
 import {map} from "rxjs/operators";
 
 export  const MAIN_URL="http://localhost:8080";
@@ -11,9 +11,7 @@ const URL= "/api/v1/adminlogin";
 @Injectable()
 export class AdminloginService {
 
-  constructor(private http:HttpClient,private router: Router) {
-
-  }
+  constructor(private http:HttpClient,private router: Router) { }
 
   login(admin:Admin):Observable<boolean>{
     return this.http.post<boolean>(MAIN_URL+URL,admin)

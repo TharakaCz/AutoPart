@@ -1,10 +1,10 @@
 import { Injectable } from '@angular/core';
 import {HttpClient} from "@angular/common/http";
-import {Observable} from "rxjs/internal/Observable";
+import {Observable} from "rxjs";
 import {Seller} from "../dtos/seller";
 
 
-export  const MAIN_URL="http://localhost:8080";
+export const MAIN_URL ="http://localhost:8080";
 const URL="/api/v1/sellers";
 
 @Injectable()
@@ -27,5 +27,6 @@ export class SellerService {
   getTotalSellers():Observable<number>{
     return this.http.get<number>(MAIN_URL+URL+"/count");
   }
+
 
 }

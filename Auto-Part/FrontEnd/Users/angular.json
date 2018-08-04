@@ -24,13 +24,13 @@
             ],
             "styles": [
               "src/styles.css",
-              "node_modules/font-awesome/css/font-awesome.min.css",
-              "node_modules/bootswatch/dist/materia/bootstrap.min.css"
+              "node_modules/bootswatch/dist/materia/bootstrap.min.css",
+              "node_modules/font-awesome/css/font-awesome.min.css"
             ],
             "scripts": [
+//              "node_modules/jquery/dist/jquery.min.js"
               "node_modules/bootstrap/dist/js/bootstrap.bundle.min.js",
               "node_modules/bootstrap/dist/js/bootstrap.min.js"
-//              "node_modules/typeit/dist/typeit.min.js"
             ]
           },
           "configurations": {
@@ -78,14 +78,9 @@
             "tsConfig": "src/tsconfig.spec.json",
             "karmaConfig": "src/karma.conf.js",
             "styles": [
-              "src/styles.css",
-              "node_modules/font-awesome/css/font-awesome.min.css",
-              "node_modules/bootswatch/dist/materia/bootstrap.min.css"
+              "src/styles.css"
             ],
-            "scripts": [
-              "node_modules/bootstrap/dist/js/bootstrap.bundle.min.js",
-              "node_modules/bootstrap/dist/js/bootstrap.min.js"
-            ],
+            "scripts": [],
             "assets": [
               "src/favicon.ico",
               "src/assets"

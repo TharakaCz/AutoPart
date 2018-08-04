@@ -1,0 +1,23 @@
+#tblSellersAcount tbody{
+  background-color: white;
+}
+
+#tblSellersAcount tr{
+  cursor: pointer;
+}
+
+#tblSellersAcount tr th:first-child, #tblSellersAcount tr td:first-child{
+  text-align: center;
+}
+
+#tblSellersAcount tr td:last-child{
+  text-align: center;
+}
+
+#tblSellersAcount tr td:last-child:hover{
+  color: red;
+}
+
+.selected{
+  background-color: lightgray;
+}

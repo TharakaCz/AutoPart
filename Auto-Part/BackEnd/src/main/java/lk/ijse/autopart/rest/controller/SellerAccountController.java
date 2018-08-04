@@ -10,34 +10,29 @@ import java.util.ArrayList;
 
 @RestController
 @CrossOrigin
-@RequestMapping(value = "api/v1/SellerAccounts")
+@RequestMapping(value = "api/v1/sellerAccounts")
 public class SellerAccountController {
 
     @Autowired
     private SellerAccountService service;
 
     @GetMapping(produces = MediaType.APPLICATION_JSON_VALUE)
-    public ArrayList<SellerAccountDTO> getAllSellerAcccounts(){
+    public ArrayList<SellerAccountDTO>getAllSellerAcccounts(){
         return service.getAllSellerAcccounts();
     }
 
-    @GetMapping(value = "/{id}",produces = MediaType.APPLICATION_JSON_VALUE)
-    public SellerAccountDTO getSellerAccounts(@PathVariable("id") String email){
-        return service.getSellerAccounts(email);
+    @DeleteMapping(value ="{/id}",produces = MediaType.APPLICATION_JSON_VALUE)
+    public boolean deleteSellerAccount(@PathVariable("id") String aNic){
+        return service.deleteSellerAccount(aNic);
     }
 
-    @DeleteMapping(value = "/{id}",produces = MediaType.APPLICATION_JSON_VALUE)
-    public boolean deleteSellerAccount(@PathVariable("id") String email){
-        return service.deleteSellerAccount(email);
-    }
-
-    @PostMapping(consumes = MediaType.APPLICATION_JSON_VALUE,produces = MediaType.APPLICATION_JSON_VALUE)
-     public boolean saveSellerAccount(@RequestBody SellerAccountDTO accountDTO){
+    @PostMapping(consumes = MediaType.APPLICATION_JSON_VALUE, produces = MediaType.APPLICATION_JSON_VALUE)
+    public boolean saveSellerAccount(@RequestBody SellerAccountDTO accountDTO){
         return service.saveSellerAccount(accountDTO);
-     }
+    }
 
-     @GetMapping(value = "/count",produces = MediaType.APPLICATION_JSON_VALUE)
-     public long getAllSellerAccount(){
+    @GetMapping(value = "/count",produces = MediaType.APPLICATION_JSON_VALUE)
+    public long getAllSellerAccount(){
         return service.getAllSellerAccount();
-     }
+    }
 }

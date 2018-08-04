@@ -1,28 +1,28 @@
 <div class="loginbody">
   <div class="login-box">
     <div class="login-logo">
-      <a href="#"><b>Auto Part</b>&nbsp;&nbsp;Admin Panel</a>
+      <a href="#"><b class="typewrite" data-period="2000" data-type='[ "AutoPart"]'></b>&nbsp;&nbsp;Admin Panel</a>
     </div>
     <!-- /.login-logo -->
     <div class="card contex" style="width: 50%;height:50%;position: absolute;left: 25%; border-radius: 15px">
       <div class="card-body login-card-body">
-        <p class="login-box-msg">Sign in to start your session</p>
+        <p class="login-box-msg typewrite" data-period="2000" data-type='[ "Welceome Auto Part Admin Panel","Input UserName And Password Login.."]' ></p>
 
         <form #frmLogin="ngForm" action="" method="post"
               (ngSubmit)="login()">
           <div class="form-group has-feedback">
-            <i class="fa fa-user form-control-feedback"></i>&nbsp;
+            <i class="fa fa-user form-control-feedback"></i>
             <input [(ngModel)]="admin.id" name="txtUserName" type="text" class="form-control " placeholder="Username">
           </div>
           <div class="form-group has-feedback">
-            <i class="fa fa-lock form-control-feedback"></i>&nbsp;
+            <i class="fa fa-lock form-control-feedback"></i>
             <input [(ngModel)]="admin.password" name="txtPassword" type="password" class="form-control" placeholder="Password">
 
           </div>
           <div class="row">
             <!-- /.col -->
             <div class="col-4">
-              <button type="submit" class="btn btn-primary btn-block btn-flat" style="width: 45%;">Sign In</button>
+              <button type="submit" class="btn btn-primary btn-block btn-flat" style=" position: absolute; left: 50%">Sign In</button>
             </div>
             <!-- /.col -->
           </div>
@@ -36,4 +36,8 @@
     </div>
   </div>
   <!-- /.login-box -->
+  <footer class="footer">
+    <span>Divolop By </span><h6 class="typewrite" data-period="2000" data-type='[ "&copy;Tharaka C Gamage&trade;"]'></h6>
+  </footer>
 </div>
+
