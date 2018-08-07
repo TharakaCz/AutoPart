@@ -8,7 +8,7 @@ import { UserRegistationComponent } from './view/user-registation/user-registati
 import { UserLoginComponent } from './view/user-login/user-login.component';
 import { GigPageComponent } from './view/gig-page/gig-page.component';
 import {HttpClientModule} from "@angular/common/http";
-import {FormsModule} from "@angular/forms";
+import {FormsModule, ReactiveFormsModule, Validators} from "@angular/forms";
 import {RoutingModule} from "./routing/routing.module";
 import {UserRegistationService} from "./services/user-registation.service";
 import {AlertModule} from "ngx-alerts";
@@ -29,7 +29,8 @@ import {BrowserAnimationsModule} from "@angular/platform-browser/animations";
     AlertModule.forRoot({maxMessages:5,timeout:5000}),
     FormsModule,
     RoutingModule,
-    BrowserAnimationsModule
+    BrowserAnimationsModule,
+    ReactiveFormsModule
   ],
   providers: [
     UserRegistationService
