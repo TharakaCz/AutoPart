@@ -8,7 +8,7 @@ import { DashboardComponent } from './view/dashboard/dashboard.component';
 import { PaymentsComponent } from './view/payments/payments.component';
 import { ManageGigsComponent } from './view/manage-gigs/manage-gigs.component';
 import {HttpClientModule} from "@angular/common/http";
-import {FormsModule} from "@angular/forms";
+import {FormsModule, ReactiveFormsModule} from "@angular/forms";
 import {AlertModule} from "ngx-alerts";
 import {NgxPaginationModule} from "ngx-pagination";
 import {LoginGuard} from "./guards/login.guard";
@@ -31,7 +31,8 @@ import {PaymentsService} from "./services/payments.service";
     RoutingModule,
     FormsModule,
     AlertModule,
-    NgxPaginationModule
+    NgxPaginationModule,
+    ReactiveFormsModule
   ],
   providers: [
     PaymentsService,

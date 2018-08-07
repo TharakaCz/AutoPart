@@ -16,3 +16,19 @@
 .login{
   z-index: 2;
 }
+
+
+.mid{
+  border-radius: 20px;
+  background: rgba(66,66,66,0.5);
+  box-shadow: 2px 4px 4px #828282;
+}
+
+.mid:hover{
+  box-shadow: 4px 8px 8px #828282;
+  background: rgba(66,66,66,0.7);
+}
+
+.tt{
+ text-shadow: 4px 8px 8px #828282;
+}

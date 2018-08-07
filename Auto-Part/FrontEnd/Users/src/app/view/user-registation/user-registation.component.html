@@ -15,38 +15,41 @@
           <div class="card-body">
             <div class="row">
               <div class="col col-12">
-                <form #frmUsers="ngForm" (ngSubmit)="saveUsers()">
-                  <p class="form-group">
+                <form #frmUsers="ngForm" [formGroup]="registerForm" (ngSubmit)="saveUsers()">
+                  <div class="form-group">
                     <label for="txtNic">Youer NIC</label>
                     <input  name="txtNic"  id="txtNic"
-                            class="form-control"  [(ngModel)]="selectedUsers.cNic" required />
-                  </p>
+                            class="form-control"  [(ngModel)]="selectedUsers.cNic" formControlName="cNic" [ngClass]="{ 'is-invalid': submitted && f.cNic.errors }" />
+                    <div *ngIf="submitted && f.cNic.errors" class="invalid-feedback">
+                      <div *ngIf="f.cNic.errors.required">Nic Requierd</div>
+                    </div>
+                  </div>
 
-                  <p class="form-group">
+                  <div class="form-group">
                     <label for="txtName">Youer Name</label>
-                    <input name="txtName"  id="txtName" class="form-control" [(ngModel)]="selectedUsers.cName" required />
-                  </p>
+                    <input name="txtName"  id="txtName" class="form-control" [(ngModel)]="selectedUsers.cName" formControlName="name" required />
+                  </div>
 
-                  <p class="form-group">
+                  <div class="form-group">
                     <label for="txtEmail">Youer Email</label>
                     <input name="txtEmail" id="txtEmail" type="email"
-                           class="form-control" [(ngModel)]="selectedUsers.cEmail" required />
-                  </p>
+                           class="form-control" [(ngModel)]="selectedUsers.cEmail" formControlName="email" required />
+                  </div>
 
-                  <p class="form-group">
+                  <div class="form-group">
                     <label for="txtAddress">Youer Address</label>
-                    <input name="txtAddress"  id="txtAddress" class="form-control" [(ngModel)]="selectedUsers.cAddress" required />
-                  </p>
+                    <input name="txtAddress"  id="txtAddress" class="form-control" [(ngModel)]="selectedUsers.cAddress" formControlName="address" required />
+                  </div>
 
-                  <p class="form-group">
+                  <div class="form-group">
                     <label for="txtContactNo">Youer ContactNo</label>
-                    <input name="txtContactNo"  id="txtContactNo" class="form-control" [(ngModel)]="selectedUsers.cContact" required />
-                  </p>
+                    <input name="txtContactNo"  id="txtContactNo" class="form-control" [(ngModel)]="selectedUsers.cContact" formControlName="contact" required />
+                  </div>
 
-                  <p class="form-group">
+                  <div class="form-group">
                     <label for="txtPassword">Youer Password</label>
-                    <input name="txtPassword"  id="txtPassword" class="form-control" [(ngModel)]="selectedUsers.cPassword" required />
-                  </p>
+                    <input name="txtPassword"  id="txtPassword" class="form-control" [(ngModel)]="selectedUsers.cPassword" formControlName="password" required />
+                  </div>
 
                   <!--<p class="form-group">-->
                   <!--<label for="txtConfirm">Re-Enter Youer Password</label>-->
