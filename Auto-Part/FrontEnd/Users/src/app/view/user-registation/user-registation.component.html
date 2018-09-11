@@ -1,24 +1,32 @@
 <!-- Main content -->
-<br><br>
-<section class="content container">
+<br>
+<div class="Backdrop col-lg-12" style="position: relative">
+  <br>
+  <div class="col-sm-4">
+    <h3 class="animated fadeInLeft" style="font-weight: bold;font-size: 35px;position: fixed">This Is Auto Spaire Parts Client Registation Form</h3>
+  </div>
+
+
+<section class="content container  " style="z-index: 1;">
+
   <div class="container-fluid">
     <div class="row">
-      <div class="col-md-12 col-12">
+      <div class="col-12 col-md-12">
 
-        <div class="card card-primary">
+        <div class="card card-primary col-6 animated  zoomIn float-left" style="left: 80%;">
           <div class="card-header">
-            <h3 class="card-title">Registation Form</h3>
+            <h3 class="card-title" style="text-align: center">Auto Part Registation Form</h3>
 
           </div>
           <ngx-alerts></ngx-alerts>
           <!-- /.card-header -->
           <div class="card-body">
             <div class="row">
-              <div class="col col-12">
+              <div class="col">
                 <form #frmUsers="ngForm" [formGroup]="registerForm" (ngSubmit)="saveUsers()">
                   <div class="form-group">
                     <label for="txtNic">Youer NIC</label>
-                    <input  name="txtNic"  id="txtNic"
+                    <input  name="txtNic" type="text"  id="txtNic"
                             class="form-control"  [(ngModel)]="selectedUsers.cNic" formControlName="cNic" [ngClass]="{ 'is-invalid': submitted && f.cNic.errors }" />
                     <div *ngIf="submitted && f.cNic.errors" class="invalid-feedback">
                       <div *ngIf="f.cNic.errors.required">Nic Requierd</div>
@@ -27,7 +35,7 @@
 
                   <div class="form-group">
                     <label for="txtName">Youer Name</label>
-                    <input name="txtName"  id="txtName" class="form-control" [(ngModel)]="selectedUsers.cName" formControlName="name" required />
+                    <input name="txtName"  type="text" id="txtName" class="form-control" [(ngModel)]="selectedUsers.cName" formControlName="name" required />
                   </div>
 
                   <div class="form-group">
@@ -38,17 +46,18 @@
 
                   <div class="form-group">
                     <label for="txtAddress">Youer Address</label>
-                    <input name="txtAddress"  id="txtAddress" class="form-control" [(ngModel)]="selectedUsers.cAddress" formControlName="address" required />
+                    <input name="txtAddress"  type="text" id="txtAddress" class="form-control" [(ngModel)]="selectedUsers.cAddress" formControlName="address" required />
                   </div>
 
                   <div class="form-group">
                     <label for="txtContactNo">Youer ContactNo</label>
-                    <input name="txtContactNo"  id="txtContactNo" class="form-control" [(ngModel)]="selectedUsers.cContact" formControlName="contact" required />
+                    <input name="txtContactNo" type="text" id="txtContactNo" class="form-control" [(ngModel)]="selectedUsers.cContact" formControlName="contact" required />
                   </div>
 
                   <div class="form-group">
-                    <label for="txtPassword">Youer Password</label>
-                    <input name="txtPassword"  id="txtPassword" class="form-control" [(ngModel)]="selectedUsers.cPassword" formControlName="password" required />
+                    <label for="password-field">Youer Password</label>
+                    <input name="password-field" type="password" id="password-field" class="form-control" [(ngModel)]="selectedUsers.cPassword" formControlName="password" required />
+                    <span toggle="#password-field" class="fa fa-eye fa-2x field-icon toggle-password"></span>
                   </div>
 
                   <!--<p class="form-group">-->
@@ -56,10 +65,10 @@
                   <!--<input   id="txtConfirm" class="form-control" >-->
                   <!--</p>-->
 
-                  <div>
-                    <button type="submit" class="btn btn-primary">Save</button>
-                    &nbsp;
-                    <button class="btn btn-warning">Clear</button>
+                  <div class="container col-8">
+                    <button type="submit" class="btn btn-primary animated bounceInRight" style="width: 100%">Save</button>
+
+                    <button class="btn btn-warning animated rubberBand bounceInLeft" style="width: 100%">Clear</button>
                   </div>
                 </form>
               </div>
@@ -71,4 +80,7 @@
       </div>
     </div>
   </div><!-- /.container-fluid -->
+
 </section>
+<img src="../../../assets/images/backdrop/reg.png" class="image animated fadeInUp" style="width: 100%;height: 600px;position: fixed;z-index: -1;" >
+</div>

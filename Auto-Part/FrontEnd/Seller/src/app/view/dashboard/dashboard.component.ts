@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import {DiliverService} from "../../services/diliver.service";
 
 @Component({
   selector: 'app-dashboard',
@@ -7,9 +8,19 @@ import { Component, OnInit } from '@angular/core';
 })
 export class DashboardComponent implements OnInit {
 
-  constructor() { }
+  totalDilivers:number = 10;
+
+  constructor(private diliverService:DiliverService) { }
 
   ngOnInit() {
+    this.countDilivers();
   }
 
+  countDilivers():void{
+    this.diliverService.getAllDilivers().subscribe(
+      (result)=>{
+        this.totalDilivers = result;
+      }
+    )
+  }
 }

@@ -19,4 +19,14 @@ public class SellerLoginController {
     public boolean canAuthenticate(@RequestBody SellerAccountDTO sellerAccountDTO){
         return service.canAuthenticate(sellerAccountDTO.getaNic(),sellerAccountDTO.getApassword());
     }
+
+    @GetMapping(value = "/logined", produces = MediaType.APPLICATION_JSON_VALUE)
+    public SellerAccountDTO getLoginedSeller(){
+        return service.getLoginedSeller();
+    }
+
+    @GetMapping(value = "/{id}",produces = MediaType.APPLICATION_JSON_VALUE)
+    public SellerAccountDTO getAuthinticate(@PathVariable("id") String aNic){
+        return service.getAuthinticate(aNic);
+    }
 }

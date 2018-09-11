@@ -15,6 +15,19 @@ import {LoginGuard} from "./guards/login.guard";
 import {RoutingModule} from "./routing/routing.module";
 import {SellerLoginService} from "./services/seller-login.service";
 import {PaymentsService} from "./services/payments.service";
+import { ProfileComponent } from './view/profile/profile.component';
+import { NavbarDirective } from './directive/navbar.directive';
+import {LoggerNameService} from "./services/logger-name.service";
+import { OrdersComponent } from './view/orders/orders.component';
+import { DiliversComponent } from './view/dilivers/dilivers.component';
+import {DiliverService} from "./services/diliver.service";
+import {ImageUploardService} from "./services/image-uploard.service";
+import { PakagesComponent } from './view/pakages/pakages.component';
+import {PakagesService} from "./services/pakages.service";
+import {SellersService} from "./services/sellers.service";
+import { NavDirective } from './directive/nav.directive';
+
+
 
 @NgModule({
   declarations: [
@@ -23,21 +36,32 @@ import {PaymentsService} from "./services/payments.service";
     MainComponent,
     DashboardComponent,
     PaymentsComponent,
-    ManageGigsComponent
+    ManageGigsComponent,
+    ProfileComponent,
+    NavbarDirective,
+    OrdersComponent,
+    DiliversComponent,
+    PakagesComponent,
+    NavDirective,
   ],
   imports: [
     BrowserModule,
     HttpClientModule,
     RoutingModule,
     FormsModule,
-    AlertModule,
+    AlertModule.forRoot({maxMessages:5,timeout:5000}),
     NgxPaginationModule,
     ReactiveFormsModule
   ],
   providers: [
     PaymentsService,
     SellerLoginService,
-    LoginGuard
+    LoginGuard,
+    LoggerNameService,
+    DiliverService,
+    ImageUploardService,
+    PakagesService,
+    SellersService
   ],
   bootstrap: [AppComponent]
 })

@@ -13,6 +13,11 @@ import {RoutingModule} from "./routing/routing.module";
 import {UserRegistationService} from "./services/user-registation.service";
 import {AlertModule} from "ngx-alerts";
 import {BrowserAnimationsModule} from "@angular/platform-browser/animations";
+import {URLService} from "./services/url.service";
+import {PakageService} from "./services/pakage.service";
+import { NavDirective } from './directive/nav.directive';
+import {UserLoginService} from "./services/user-login.service";
+import { LoginDirective } from './directive/login.directive';
 
 @NgModule({
   declarations: [
@@ -21,7 +26,9 @@ import {BrowserAnimationsModule} from "@angular/platform-browser/animations";
     DashboardComponent,
     UserRegistationComponent,
     UserLoginComponent,
-    GigPageComponent
+    GigPageComponent,
+    NavDirective,
+    LoginDirective
   ],
   imports: [
     BrowserModule,
@@ -33,7 +40,10 @@ import {BrowserAnimationsModule} from "@angular/platform-browser/animations";
     ReactiveFormsModule
   ],
   providers: [
-    UserRegistationService
+    UserRegistationService,
+    URLService,
+    PakageService,
+    UserLoginService
   ],
   bootstrap: [AppComponent]
 })

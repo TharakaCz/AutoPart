@@ -17,23 +17,26 @@ public class SellerDTO {
     public SellerDTO() {
     }
 
+    public SellerDTO(String sNic) {
+        this.sNic = sNic;
+    }
+
     public SellerDTO(String sName, String sEmail, String sAddress, String sContactNo, String sCompany) {
-        this.setsName(sName);
-        this.setsEmail(sEmail);
-        this.setsAddress(sAddress);
-        this.setsContactNo(sContactNo);
-        this.setsCompany(sCompany);
+        this.sName = sName;
+        this.sEmail = sEmail;
+        this.sAddress = sAddress;
+        this.sContactNo = sContactNo;
+        this.sCompany = sCompany;
     }
 
     public SellerDTO(String sNic, String sName, String sEmail, String sAddress, String sContactNo, String sCompany) {
-        this.setsNic(sNic);
-        this.setsName(sName);
-        this.setsEmail(sEmail);
-        this.setsAddress(sAddress);
-        this.setsContactNo(sContactNo);
-        this.setsCompany(sCompany);
+        this.sNic = sNic;
+        this.sName = sName;
+        this.sEmail = sEmail;
+        this.sAddress = sAddress;
+        this.sContactNo = sContactNo;
+        this.sCompany = sCompany;
     }
-
 
     public String getsNic() {
         return sNic;

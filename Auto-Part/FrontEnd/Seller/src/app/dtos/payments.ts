@@ -1,15 +1,15 @@
+import {Seller} from "./seller";
+
+
 export class Payments {
 
-  nIc:string;
+  id:number;
 
-  pName:string;
+  pakageName:string;
 
-  pEmail:string;
+  date:string;
 
-  pContactNo:string;
+  sellers:Seller;
 
-  packageType:string;
-
-  cost:string;
 
 }

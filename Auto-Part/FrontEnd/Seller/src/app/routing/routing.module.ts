@@ -6,6 +6,9 @@ import {ManageGigsComponent} from "../view/manage-gigs/manage-gigs.component";
 import {PaymentsComponent} from "../view/payments/payments.component";
 import {LoginGuard} from "../guards/login.guard";
 import {LoginComponent} from "../view/login/login.component";
+import {ProfileComponent} from "../view/profile/profile.component";
+import {DiliversComponent} from "../view/dilivers/dilivers.component";
+import {PakagesComponent} from "../view/pakages/pakages.component";
 
 const appRouter:Routes=[
   {
@@ -14,7 +17,10 @@ const appRouter:Routes=[
     children:[
       {path:"dashboard",component:DashboardComponent},
       {path:"manage-gigs",component:ManageGigsComponent},
+      {path:"profile",component:ProfileComponent},
       {path:"payments",component:PaymentsComponent},
+      {path:"pakages",component:PakagesComponent},
+      {path:"dilivers",component:DiliversComponent},
       {path:"",pathMatch:"full",redirectTo:"/main/dashboard"}
     ],
   },

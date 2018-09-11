@@ -1,3 +1,144 @@
-<p>
-  payments works!
-</p>
+<!-- Content Header (Page header) -->
+<div class="content-header">
+  <div class="container-fluid">
+    <div class="row mb-2">
+      <div class="col-sm-6">
+        <h1 class="m-0 text-dark">Manage Payments</h1>
+      </div><!-- /.col -->
+      <div class="col-sm-6">
+        <ol class="breadcrumb float-sm-right">
+          <li class="breadcrumb-item"><a href="#">Home</a></li>
+          <li class="breadcrumb-item active">Manage Payments Account</li>
+        </ol>
+      </div><!-- /.col -->
+    </div><!-- /.row -->
+  </div><!-- /.container-fluid -->
+</div>
+<!-- /.content-header -->
+<!-- Main content -->
+<section class="content">
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-md-6 col-12">
+
+        <div class="card card-primary animated fadeInLeft">
+          <div class="card-header">
+            <h3 class="card-title">Payments Information</h3>
+
+          </div>
+          <!-- /.card-header -->
+          <div class="card-body">
+            <div class="row">
+              <div class="col col-12">
+                <form #frmPayments="ngForm" (submit)="perchese()">
+
+                  <p class="form-group">
+                    <label>Seller NIC</label>
+                    <select class="custom-select d-block w-100" (change)="getSeller($event)" >
+                      <option>Choose Youer NIC</option>
+                      <option *ngFor="let se of sellers">{{se.sNic}}</option>
+                    </select>
+                  </p>
+
+                  <p class="form-group">
+                    <label></label>
+                  </p>
+
+                  <p class="form-group">
+                    <label >Seller Name</label>
+                    <input name="txtSname"  id="txtSname" class="form-control" [(ngModel)]="searchSellers.sName" >
+                  </p>
+
+                  <p class="form-group ">
+                    <label >Seller Email</label>
+                    <input name="txtEmail"  id="txtEmail" class="form-control" [(ngModel)]="searchSellers.sEmail">
+                  </p>
+
+                  <p class="form-group ">
+                    <label >Seller Address</label>
+                    <input name="txtAddress"  id="txtAddress" class="form-control" [(ngModel)]="searchSellers.sAddress">
+                  </p>
+
+                  <p class="form-group">
+                    <label >Seller Contact</label>
+                    <input name="txtContact"  id="txtContact" class="form-control"  [(ngModel)]="searchSellers.sContactNo">
+                  </p>
+
+                  <p class="form-group">
+                    <label >Seller Companny</label>
+                    <input name="txtCompanny"  id="txtCompanny" class="form-control" [(ngModel)]="searchSellers.sCompany" >
+                  </p>
+
+                  <p class="form-group">
+                    <label>Select Pakage</label>
+                    <select class="custom-select d-block w-100" >
+                      <option>Select Youer Pakage</option>
+                      <option *ngFor="let pa of pakage">{{pa.pakageTitel}}</option>
+                    </select>
+                  </p>
+
+
+
+                  <p class="form-group">
+                    <label >Due Date</label>
+                    <input name="txtName"  id="txtName" class="form-control" [(ngModel)]="selectPayments.date">
+                  </p>
+
+
+                  <div>
+                    <button type="submit" class="btn btn-primary">Save</button>
+                    &nbsp;
+                    <button  type="button" class="btn btn-warning">Clear</button>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+          <!-- /.card-body -->
+        </div>
+        <!-- /.card -->
+
+        <ngx-alerts></ngx-alerts>
+      </div>
+      <div class="col-md-6 col-12">
+
+        <table id="tblSellersAcount" class="table table-bordered table-hover animated fadeInRight">
+          <thead>
+          <tr>
+            <th>Seller NIC</th>
+            <th>Seller Name</th>
+            <th>Seller PakageType</th>
+            <th>Seller Password</th>
+            <th>Seller Order Date</th>
+            <th>Seller Expire Date</th>
+            <th>Action</th>
+
+          </tr>
+          </thead>
+          <tbody>
+          <tr >
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td>
+              <i  class="fa fa-trash fa-2x" ></i>
+            </td>
+          </tr>
+          </tbody>
+
+          <tfoot>
+          <tr>
+            <!--<td colspan="7">-->
+              <!--<pagination-controls (pageChange)="p = $event"></pagination-controls>-->
+            <!--</td>-->
+          </tr>
+          </tfoot>
+        </table>
+      </div>
+    </div>
+  </div><!-- /.container-fluid -->
+</section>
+

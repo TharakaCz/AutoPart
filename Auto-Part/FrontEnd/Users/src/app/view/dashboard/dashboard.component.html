@@ -1,7 +1,8 @@
 <!--==========================
   Intro Section
 ============================-->
-<section id="intro">
+
+<section id="intro" >
   <div class="intro-container">
     <div id="introCarousel" class="carousel  slide carousel-fade" data-ride="carousel">
 
@@ -10,10 +11,10 @@
       <div class="carousel-inner" role="listbox">
 
         <div class="carousel-item active">
-          <div class="carousel-background"><img src="../assets/images/curosul/194684.jpg" alt=""></div>
+          <div class="carousel-background"><img src="../assets/images/curosul/194684.jpg" alt="" ></div>
           <div class="carousel-container">
             <div class="carousel-content">
-              <h2 class="typewrite" data-period="2000" data-type='[ " &#9758; &nbsp;Genuine Spaire Parts &nbsp; &#9756;"]'>
+              <h2 class="typewrite animated zoomIn" data-period="2000" data-type='[ " &#9758; &nbsp;Genuine Spaire Parts &nbsp; &#9756;"]'>
                 <span class="wrap"></span>
               </h2>
 
@@ -26,7 +27,7 @@
           <div class="carousel-background"><img src="../assets/images/curosul/dilivery.jpg" alt=""></div>
           <div class="carousel-container">
             <div class="carousel-content">
-              <h2 class="typewrite" data-period="2000" data-type='[ "&#9758; &nbsp;Quickly Dilivery&nbsp; &#9756;"]'>
+              <h2 class="typewrite animated zoomIn" data-period="2000" data-type='[ "&#9758; &nbsp;Quickly Dilivery&nbsp; &#9756;"]'>
                 <span class="wrap"></span>
               </h2>
 
@@ -39,7 +40,7 @@
           <div class="carousel-background"><img src="../assets/images/curosul/operator.jpeg" alt=""></div>
           <div class="carousel-container">
             <div class="carousel-content">
-              <h2 class="typewrite" data-period="2000" data-type='[ "&#9758; &nbsp;24 Hour Ordering System and Good Sellers&nbsp; &#9756;"]'>
+              <h2 class="typewrite animated zoomIn" data-period="2000" data-type='[ "&#9758; &nbsp;24 Hour Ordering System and Good Sellers&nbsp; &#9756;"]'>
                 <span class="wrap"></span>
               </h2>
 
@@ -52,7 +53,7 @@
           <div class="carousel-background"><img src="../assets/images/curosul/Toyota-Center.jpg" alt=""></div>
           <div class="carousel-container">
             <div class="carousel-content">
-              <h2 class="typewrite" data-period="2000" data-type='[ "&#9758; &nbsp;Top Compannys Sellers&nbsp;&#9756;"]'>
+              <h2 class="typewrite animated zoomIn" data-period="2000" data-type='[ "&#9758; &nbsp;Top Compannys Sellers&nbsp;&#9756;"]'>
                 <span class="wrap"></span>
               </h2>
 
@@ -78,7 +79,8 @@
   </div>
 </section><!-- #intro -->
 
-<main id="main">
+
+<main id="main" class="">
 
   <!--==========================
     Featured Services Section
@@ -353,9 +355,152 @@
   <!--</section>&lt;!&ndash; #testimonials &ndash;&gt;-->
 
 
-  <!--==========================
-    Contact Section
-  ============================-->
+
+  <section  class="section-bg wow fadeInUp">
+    <div class="container">
+
+      <div class="section-header">
+        <h3 class="typewrite" data-period="2000" data-type='[ "Admin Location"]'>
+          </h3>
+
+
+      </div>
+      <br>
+      <div class="row contact-info">
+
+        <div class="col-md-12 col-12">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1130.5640057046419!2d80.47407887387722!3d5.972832999706451!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ae13fed0be8aca3%3A0x8a483b4668b29b0!2zNcKwNTgnMjIuMiJOIDgwwrAyOCcyOC43IkU!5e1!3m2!1sen!2slk!4v1534657565632" width="100%" height="500rem" frameborder="0" style="border:0" allowfullscreen></iframe>
+        </div>
+
+      </div>
+
+
+
+    </div>
+  </section><!-- #contact -->
+
+
+
+  <section  class="section-bg wow fadeInUp">
+    <div class="container">
+
+      <div class="section-header">
+        <h3 class="typewrite" data-period="2000" data-type='[ "Pakages"]'>
+        </h3>
+
+
+      </div>
+      <br>
+      <div class="">
+
+        <div class="col-md-12 col-12">
+
+          <div class="col-12 col ">
+          <div class="col-md-12 col-12">
+            <div class="col-sm-12 col-md-12 "  *ngFor="let pa of pakage">
+              <div class="card">
+                <div class="card-content">
+                  <div class="card-title green white-text">
+                    <h3>{{pa.pakageTitel}}</h3>
+                    <h5>rs/{{pa.pakagePrice}}</h5>
+                  </div>
+                  <ul class="collection">
+                    <li class="collection-item">{{pa.pakageDuration}}</li>
+
+                  </ul>
+                </div>
+
+                <div class="card-action">
+                  <div class="btn btn-block btn-large pink">Sing Up</div>
+                </div>
+              </div>
+              <br>
+              <br>
+            </div>
+          </div>
+
+          </div>
+        </div>
+
+      </div>
+
+
+
+    </div>
+  </section><!-- #contact -->
+
+
+
+  <hr class="my-4">
+
+  <section class="section-bg wow fadeInUp">
+    <div class="container ">
+      <h3 style="text-align: center;font-weight: bold;font-size: 35px;" class="typewrite" data-period="2000" data-type='["Admins Comments"]'><span class="wrap"></span></h3>
+    </div>
+
+    <div class="card col-6">
+      <div id="carouselExampleControls" class="carousel slide" data-ride="carousel" data-interval="100000">
+        <div class="w-100 carousel-inner" role="listbox">
+          <div class="carousel-item active">
+            <div class="carousel-caption">
+              <div class="row">
+                <div class="col-sm-3">
+                  <img src="https://scontent.fcmb4-1.fna.fbcdn.net/v/t1.0-1/c0.0.160.160/p160x160/22780692_530988823907224_3609780852627997302_n.jpg?_nc_cat=0&oh=ed280a8ff1d684775d3bea3cf14a13c6&oe=5C041D67" alt="" class="rounded-circle img-fluid"/>
+                </div>
+                <div class="col-sm-9">
+                  <h3>Gives me hope</h3>
+                  <small>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</small>
+                  <small class="smallest mute">- Yayo Dudemous</small>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="carousel-caption">
+              <div class="row">
+                <div class="col-sm-3">
+                  <img src="http://via.placeholder.com/200x200" alt="" class="rounded-circle img-fluid">
+                </div>
+                <div class="col-sm-9">
+                  <h3>You will love it.</h3>
+                  <small>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</small>
+                  <small class="smallest mute">- Yayo Dudemous</small>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="carousel-item">
+            <div class="carousel-caption">
+              <div class="row">
+                <div class="col-sm-3">
+                  <img src="http://via.placeholder.com/200x200" alt="" class="rounded-circle img-fluid">
+                </div>
+                <div class="col-sm-9">
+                  <h3>Velvet pouch!</h3>
+                  <small>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</small>
+                  <small class="smallest mute">- Yayo Dudemous</small>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="float-right navi">
+          <a class="" href="#carouselExampleControls" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon ico" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="" href="#carouselExampleControls" role="button" data-slide="next">
+            <span class="carousel-control-next-icon ico" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <hr class="my-4">
+
   <section id="contact" class="section-bg wow fadeInUp">
     <div class="container">
 

@@ -44,10 +44,15 @@
                   </p>
 
                   <p class="form-group">
-                    <label for="txtPakageType">Seller Pakage</label>
+                    <label for="txtPakageType">Seller Pakage Type</label>
                     <input name="txtPakageType"  id="txtPakageType" class="form-control" required [(ngModel)]="sellectedAccount.aPackageType"/>
                   </p>
 
+
+                  <p class="form-group">
+                    <label for="txtPakageType">Seller Pakage Price</label>
+                    <input name="txtPakagePrice"  id="txtPakagePrice" class="form-control" required [(ngModel)]="sellectedAccount.aPackagePrice"/>
+                  </p>
 
                   <p class="form-group">
                     <label for="txtPassword">Seller Password</label>
@@ -101,6 +106,7 @@
             <td>{{sellerAccount.aNic}}</td>
             <td>{{sellerAccount.aName}}</td>
             <td>{{sellerAccount.aPackageType}}</td>
+            <td>{{sellerAccount.aPackagePrice}}</td>
             <td>{{sellerAccount.apassword}}</td>
             <td>{{sellerAccount.aOdate}}</td>
             <td>{{sellerAccount.aExpaierDate}}</td>

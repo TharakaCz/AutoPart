@@ -19,6 +19,9 @@ import {SellerAccountService} from "./services/seller-account.service";
 import {AdminGuard} from "./guards/admin.guard";
 import {UsersService} from "./services/users.service";
 import {PaymentService} from "./services/payment.service";
+import {URLService} from "./services/url.service";
+import { ManagePakagesComponent } from './view/manage-pakages/manage-pakages.component';
+import {PakagesService} from "./services/pakages.service";
 
 @NgModule({
   declarations: [
@@ -28,7 +31,8 @@ import {PaymentService} from "./services/payment.service";
     LoginComponent,
     ManageSellersComponent,
     ManageSellersAccountComponent,
-    ManageGigsComponent
+    ManageGigsComponent,
+    ManagePakagesComponent
   ],
   imports: [
     BrowserModule,
@@ -44,7 +48,9 @@ import {PaymentService} from "./services/payment.service";
     SellerAccountService,
     PaymentService,
     UsersService,
-    AdminGuard
+    AdminGuard,
+    URLService,
+    PakagesService
   ],
   bootstrap: [AppComponent]
 })
