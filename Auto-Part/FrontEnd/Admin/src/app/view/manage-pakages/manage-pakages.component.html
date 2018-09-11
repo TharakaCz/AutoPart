@@ -1,0 +1,102 @@
+<!-- Content Header (Page header) -->
+<div class="content-header">
+  <div class="container-fluid">
+    <div class="row mb-2">
+      <div class="col-sm-6">
+        <h1 class="m-0 text-dark">Manage Pakaeges</h1>
+      </div><!-- /.col -->
+      <div class="col-sm-6">
+        <ol class="breadcrumb float-sm-right">
+          <li class="breadcrumb-item"><a href="#">Home</a></li>
+          <li class="breadcrumb-item active">Manage Pakage</li>
+        </ol>
+      </div><!-- /.col -->
+    </div><!-- /.row -->
+  </div><!-- /.container-fluid -->
+</div>
+<!-- /.content-header -->
+
+<!-- Main content -->
+<section class="content">
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-md-6 col-6">
+
+        <div class="card card-primary">
+          <div class="card-header">
+            <h3 class="card-title">Pakage Information</h3>
+
+          </div>
+          <!-- /.card-header -->
+          <div class="card-body">
+            <div class="row">
+              <div class="col col-12">
+                <form #frmPakage="ngForm" (ngSubmit)="savePakages()">
+                  <p class="form-group">
+                    <label for="txtTitel">Seller NIC</label>
+                    <input  name="txtTitel"  id="txtTitel"
+                            class="form-control" [(ngModel)]="selectPakages.pakageTitel" type="text" required />
+                  </p>
+
+                  <p class="form-group">
+                    <label for="txtPrice">Seller Name</label>
+                    <input name="txtPrice"  id="txtPrice" class="form-control" type="text" [(ngModel)]="selectPakages.pakagePrice" required />
+                  </p>
+
+                  <p class="form-group">
+                    <label for="txtDuration">Seller Email</label>
+                    <input name="txtDuration" id="txtDuration" type="text"
+                           class="form-control" [(ngModel)]="selectPakages.pakageDuration" required />
+                  </p>
+
+
+                  <div>
+                    <button type="submit" class="btn btn-primary">Save</button>
+                    &nbsp;
+                    <button  type="button" class="btn btn-warning" >Clear</button>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+          <!-- /.card-body -->
+        </div>
+        <!-- /.card -->
+        <ngx-alerts></ngx-alerts>
+      </div>
+      <div class="col-md-6 col-6">
+
+        <table id="tblSellers" class="table table-bordered table-hover animated fadeInLeft">
+          <thead>
+          <tr>
+            <th>Pakege ID</th>
+            <th>Pakage Titel</th>
+            <th>Pakage Price</th>
+            <th>Pakage Duration</th>
+            <th>Action</th>
+          </tr>
+          </thead>
+          <tbody>
+          <tr *ngFor="let pack of pakage">
+            <td>{{pack.id}}</td>
+            <td>{{pack.pakageTitel}}</td>
+            <td>{{pack.pakagePrice}}</td>
+            <td>{{pack.pakageDuration}}</td>
+            <td>
+              <i  class="fa fa-trash fa-2x" ></i>
+            </td>
+          </tr>
+          </tbody>
+          <tfoot>
+          <tr>
+            <!--<td colspan="7">-->
+              <!--<pagination-controls (pageChange)="p = $event"></pagination-controls>-->
+            <!--</td>-->
+          </tr>
+          </tfoot>
+        </table>
+      </div>
+    </div>
+  </div><!-- /.container-fluid -->
+</section>
+

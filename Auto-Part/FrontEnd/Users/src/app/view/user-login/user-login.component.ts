@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import {UserLoginService} from "../../services/user-login.service";
+import {Users} from "../../dtos/users";
 
 @Component({
   selector: 'app-user-login',
@@ -7,9 +9,19 @@ import { Component, OnInit } from '@angular/core';
 })
 export class UserLoginComponent implements OnInit {
 
-  constructor() { }
+ users:Users = new Users();
+ faild:boolean;
+  constructor(private userLogin:UserLoginService) { }
 
   ngOnInit() {
   }
 
+  login():void{
+
+    this.userLogin.canAuthenticate(this.users).subscribe(
+      (result)=>{
+        this.faild = !result;
+      }
+    )
+  }
 }

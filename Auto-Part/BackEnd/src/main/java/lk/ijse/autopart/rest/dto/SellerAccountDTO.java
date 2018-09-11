@@ -5,6 +5,7 @@ public class SellerAccountDTO  {
     private String aNic;
     private String aName;
     private String aPackageType;
+    private String aPackagePrice;
     private String apassword;
     private String aOdate;
     private String aExpaierDate;
@@ -17,15 +18,17 @@ public class SellerAccountDTO  {
         this.setaNic(aNic);
     }
 
-    public SellerAccountDTO(String aNic, String apassword) {
+    public SellerAccountDTO(String aNic, String aName, String apassword) {
         this.setaNic(aNic);
+        this.setaName(aName);
         this.setApassword(apassword);
     }
 
-    public SellerAccountDTO(String aNic, String aName, String aPackageType, String apassword, String aOdate, String aExpaierDate) {
+    public SellerAccountDTO(String aNic, String aName, String aPackageType, String aPackagePrice, String apassword, String aOdate, String aExpaierDate) {
         this.setaNic(aNic);
         this.setaName(aName);
         this.setaPackageType(aPackageType);
+        this.setaPackagePrice(aPackagePrice);
         this.setApassword(apassword);
         this.setaOdate(aOdate);
         this.setaExpaierDate(aExpaierDate);
@@ -54,6 +57,14 @@ public class SellerAccountDTO  {
 
     public void setaPackageType(String aPackageType) {
         this.aPackageType = aPackageType;
+    }
+
+    public String getaPackagePrice() {
+        return aPackagePrice;
+    }
+
+    public void setaPackagePrice(String aPackagePrice) {
+        this.aPackagePrice = aPackagePrice;
     }
 
     public String getApassword() {
@@ -86,6 +97,7 @@ public class SellerAccountDTO  {
                 "aNic='" + aNic + '\'' +
                 ", aName='" + aName + '\'' +
                 ", aPackageType='" + aPackageType + '\'' +
+                ", aPackagePrice='" + aPackagePrice + '\'' +
                 ", apassword='" + apassword + '\'' +
                 ", aOdate='" + aOdate + '\'' +
                 ", aExpaierDate='" + aExpaierDate + '\'' +

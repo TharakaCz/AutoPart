@@ -1,0 +1,14 @@
+.field-icon {
+  float: right;
+  margin-left: -22px;
+  margin-top: -22px;
+  position: relative;
+  z-index: 2;
+}
+
+
+.image{
+
+  top: 35%;
+
+}

@@ -15,3 +15,17 @@
   height: 100%;
   margin-top: 4%;
 }
+
+.navbar .navbar-nav{
+  margin: 0 auto;
+}
+
+form .cart:hover{
+
+  cursor: pointer;
+  color: #18d36e;
+}
+
+form .cart{
+  color: white;
+}

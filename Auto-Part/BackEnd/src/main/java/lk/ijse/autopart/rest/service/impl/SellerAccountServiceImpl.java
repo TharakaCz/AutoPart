@@ -28,6 +28,7 @@ public class SellerAccountServiceImpl implements SellerAccountService {
             SellerAccountDTO sellerAccountDTO = new SellerAccountDTO(sellerAccount.getaNic(),
                     sellerAccount.getaName(),
                     sellerAccount.getaPackageType(),
+                    sellerAccount.getaPackagePrice(),
                     sellerAccount.getApassword(),
                     sellerAccount.getaOdate(),
                     sellerAccount.getaExpaierDate());
@@ -42,6 +43,7 @@ public class SellerAccountServiceImpl implements SellerAccountService {
         SellerAccountDTO sellerAccountDTO = new SellerAccountDTO(selleraccount.getaNic(),
                 selleraccount.getaName(),
                 selleraccount.getaPackageType(),
+                selleraccount.getaPackagePrice(),
                 selleraccount.getApassword(),
                 selleraccount.getaOdate(),
                 selleraccount.getaExpaierDate());
@@ -61,6 +63,7 @@ public class SellerAccountServiceImpl implements SellerAccountService {
        SellerAccount sellerAccount1 = new SellerAccount(sellerAccount.getaNic(),
                sellerAccount.getaName(),
                sellerAccount.getaPackageType(),
+               sellerAccount.getaPackagePrice(),
                sellerAccount.getApassword(),
                sellerAccount.getaOdate(),
                sellerAccount.getaExpaierDate());

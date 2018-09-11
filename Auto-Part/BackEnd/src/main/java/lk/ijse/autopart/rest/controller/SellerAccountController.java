@@ -10,7 +10,7 @@ import java.util.ArrayList;
 
 @RestController
 @CrossOrigin
-@RequestMapping(value = "api/v1/sellerAccounts")
+@RequestMapping(value = "/api/v1/sellerAccounts")
 public class SellerAccountController {
 
     @Autowired
@@ -21,7 +21,7 @@ public class SellerAccountController {
         return service.getAllSellerAcccounts();
     }
 
-    @DeleteMapping(value ="{/id}",produces = MediaType.APPLICATION_JSON_VALUE)
+    @DeleteMapping(value ="/{id}",produces = MediaType.APPLICATION_JSON_VALUE)
     public boolean deleteSellerAccount(@PathVariable("id") String aNic){
         return service.deleteSellerAccount(aNic);
     }
@@ -29,6 +29,11 @@ public class SellerAccountController {
     @PostMapping(consumes = MediaType.APPLICATION_JSON_VALUE, produces = MediaType.APPLICATION_JSON_VALUE)
     public boolean saveSellerAccount(@RequestBody SellerAccountDTO accountDTO){
         return service.saveSellerAccount(accountDTO);
+    }
+
+    @GetMapping(value = "/{id}",produces = MediaType.APPLICATION_JSON_VALUE)
+    public SellerAccountDTO getSellerAccounts(@PathVariable("id") String aNic){
+        return service.getSellerAccounts(aNic);
     }
 
     @GetMapping(value = "/count",produces = MediaType.APPLICATION_JSON_VALUE)

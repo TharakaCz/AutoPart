@@ -4,8 +4,8 @@ import {Router} from "@angular/router";
 import {Admin} from "../dtos/admin";
 import {Observable} from "rxjs";
 import {map} from "rxjs/operators";
+import {MAIN_URL} from "./url.service";
 
-export  const MAIN_URL="http://localhost:8080";
 const URL= "/api/v1/adminlogin";
 
 @Injectable()

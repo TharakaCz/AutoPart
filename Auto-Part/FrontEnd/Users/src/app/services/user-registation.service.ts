@@ -2,8 +2,8 @@ import { Injectable } from '@angular/core';
 import {HttpClient} from "@angular/common/http";
 import {Observable} from "rxjs";
 import {Users} from "../dtos/users";
+import {MAIN_URL} from "./url.service";
 
-export const MAIN_URL="http://localhost:8080";
 const URL="/api/v1/customers";
 @Injectable()
 export class UserRegistationService {

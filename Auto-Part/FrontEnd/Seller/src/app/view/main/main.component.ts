@@ -1,4 +1,7 @@
 import { Component, OnInit } from '@angular/core';
+import {SellerLoginService} from "../../services/seller-login.service";
+import {Auth} from "../../dtos/auth";
+import {LoginComponent} from "../login/login.component";
 
 @Component({
   selector: 'app-main',
@@ -7,9 +10,48 @@ import { Component, OnInit } from '@angular/core';
 })
 export class MainComponent implements OnInit {
 
-  constructor() { }
+   seller:Auth = new Auth();
+  // faild:boolean;
+  constructor(private autinticate:SellerLoginService) {
 
-  ngOnInit() {
   }
 
+  ngOnInit() {
+    this.getLoginedSeller();
+
+  }
+
+  // name():void{
+  //
+  //   this.auth.isAuth();
+  //
+  //
+  // }
+
+  // auth():void{
+  //   this.authinticated.auth(this.seller).subscribe(
+  //
+  //     (result)=>{
+  //
+  //       this.faild=!result;
+  //     }
+  //   )
+  //
+  // }
+
+
+//   getAutinticate():void{
+//     this.authinticated.getAuthinticate(this.seller)
+// }
+
+  getLoginedSeller():void{
+    console.log("Sucsess")
+    this.autinticate.getLoginedSeller().subscribe(
+      (result)=>{
+        this.seller=result;
+
+      }
+    )
+  }
 }
+

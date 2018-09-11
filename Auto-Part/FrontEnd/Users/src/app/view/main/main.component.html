@@ -1,5 +1,5 @@
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark navb">
-  <a class="navbar-brand" href="#">
+  <a class="navbar-brand" href="#" appNav>
     <img src="../assets/images/logo/Auto%20Spare%20Part.png" width="70" height="30" alt="">
     Auto Part</a>
 
@@ -23,7 +23,7 @@
       </li>
 
       <li class="nav-item">
-        <a class="nav-link" onclick="document.getElementById('id01').style.display='block'" >Service</a>
+        <a class="nav-link" >Service</a>
       </li>
 
 
@@ -31,33 +31,92 @@
       <!--<a class="nav-link" routerLink="register" routerLinkActive="active"><i class="fa fa-sign-in"></i>&nbsp;&nbsp;Sigin-up</a>-->
       <!--</li>-->
 
-      <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-          <i class="fa fa-sign-in"></i>
-          Sigin-up
-        </a>
-        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-          <a class="dropdown-item" routerLink="user-registation" routerLinkActive="active">Create Account</a>
-          <div class="dropdown-divider"></div>
-          <a class="dropdown-item" >Login</a>
-        </div>
-      </li>
+
 
       <li class="nav-item">
         <a class="nav-link" ><i class="fa fa-hacker-news"></i>&nbsp;&nbsp;Complains</a>
       </li>
 
       <li class="nav-item">
-        <a class="nav-link" onclick="document.getElementById('id01').style.display='block'"><i class="fa fa-hacker-news"></i>&nbsp;&nbsp;Log</a>
+        <a class="nav-link" routerLinkActive="active" routerLink="user-login"><i class="fa fa-hacker-news"></i>&nbsp;&nbsp;Login</a>
       </li>
 
       <li class="nav-item">
+        <a class="nav-link" routerLink="user-registation" routerLinkActive="avtive"><i class="fa fa-sign-in"></i>Sign</a>
+      </li>
+      <li class="nav-item">
         <a class="nav-link" ><i class="fa fa-users"></i>&nbsp;&nbsp;Admins</a>
       </li>
+
+
     </ul>
     <form class="form-inline my-2 my-lg-0">
+
+      <!--<ng-template>-->
+      <li class="nav-item dropdown">
+        <a class="nav-link" data-toggle="dropdown" href="#">
+          <i class="fa fa-shopping-cart fa-2x cart" ></i>
+          <span class="badge badge-danger navbar-badge">3</span>
+        </a>
+        <div class="dropdown-menu dropdown-menu-lg dropdown-menu-right">
+          <a href="#" class="dropdown-item">
+            <!-- Message Start -->
+            <div class="media">
+              <img src="dist/img/user1-128x128.jpg" alt="User Avatar" class="img-size-50 mr-3 img-circle">
+              <div class="media-body">
+                <h3 class="dropdown-item-title">
+                  Brad Diesel
+                  <span class="float-right text-sm text-danger"><i class="fa fa-star"></i></span>
+                </h3>
+                <p class="text-sm">Call me whenever you can...</p>
+                <p class="text-sm text-muted"><i class="fa fa-clock-o mr-1"></i> 4 Hours Ago</p>
+              </div>
+            </div>
+            <!-- Message End -->
+          </a>
+          <div class="dropdown-divider"></div>
+          <a href="#" class="dropdown-item">
+            <!-- Message Start -->
+            <div class="media">
+              <img src="dist/img/user8-128x128.jpg" alt="User Avatar" class="img-size-50 img-circle mr-3">
+              <div class="media-body">
+                <h3 class="dropdown-item-title">
+                  John Pierce
+                  <span class="float-right text-sm text-muted"><i class="fa fa-star"></i></span>
+                </h3>
+                <p class="text-sm">I got your message bro</p>
+                <p class="text-sm text-muted"><i class="fa fa-clock-o mr-1"></i> 4 Hours Ago</p>
+              </div>
+            </div>
+            <!-- Message End -->
+          </a>
+          <div class="dropdown-divider"></div>
+          <a href="#" class="dropdown-item">
+            <!-- Message Start -->
+            <div class="media">
+              <img src="dist/img/user3-128x128.jpg" alt="User Avatar" class="img-size-50 img-circle mr-3">
+              <div class="media-body">
+                <h3 class="dropdown-item-title">
+                  Nora Silvester
+                  <span class="float-right text-sm text-warning"><i class="fa fa-star"></i></span>
+                </h3>
+                <p class="text-sm">The subject goes here</p>
+                <p class="text-sm text-muted"><i class="fa fa-clock-o mr-1"></i> 4 Hours Ago</p>
+              </div>
+            </div>
+            <!-- Message End -->
+          </a>
+          <div class="dropdown-divider"></div>
+          <a href="#" class="dropdown-item dropdown-footer">See All Messages</a>
+        </div>
+      </li>
+
+      <!--</ng-template>-->
+
       <input class="form-control mr-sm-2" type="text" placeholder="Search">
-      <button class="btn btn-secondary my-2 my-sm-0 fa fa-search fa-1x" type="button" onclick="document.getElementById('id01').style.display='block'"></button>
+
+      <button class="btn btn-secondary my-2 my-sm-0 fa fa-search fa-1x" type="button"></button>
+
     </form>
   </div>
 </nav>
@@ -65,56 +124,3 @@
   <router-outlet></router-outlet>
 </div>
 
-<div id="id01" class="modal">
-
-  <div class="login-wrap modal-content animate">
-    <div class="login-html">
-      <input id="tab-1" type="radio" name="tab" class="sign-in" checked><label for="tab-1" class="tab">Sign In</label>
-      <input id="tab-2" type="radio" name="tab" class="sign-up"><label for="tab-2" class="tab">Sign Up</label>
-      <div class="login-form">
-        <div class="sign-in-htm">
-          <div class="group">
-            <label for="user" class="label">Username</label>
-            <input  type="text" class="input form-control">
-          </div>
-          <div class="group">
-            <label for="pass" class="label">Password</label>
-            <input type="password" class="input form-control" data-type="password">
-          </div>
-          <div class="group">
-            <input id="check" type="checkbox" class="check" checked>
-
-          </div>
-          <div class="group">
-            <button type="submit" class="btn btn-primary">Sign In</button>
-          </div>
-          <div class="foot-lnk">
-            <a href="#forgot">Forgot Password?</a>
-          </div>
-        </div>
-        <div class="sign-up-htm">
-          <div class="group">
-            <label for="user" class="label">Username</label>
-            <input id="user" type="text" class="input form-control">
-          </div>
-          <div class="group">
-            <label for="pass" class="label">Password</label>
-            <input  type="password" class="input form-control" data-type="password">
-          </div>
-          <div class="group">
-            <label for="pass" class="label">Repeat Password</label>
-            <input  type="password" class="input form-control" data-type="password">
-          </div>
-          <div class="group">
-            <label for="pass" class="label">Email Address</label>
-            <input id="pass" type="text" class="input form-control">
-          </div>
-          <div class="group">
-            <button type="submit" class="button btn btn-primary" >Sign Up</button>
-          </div>
-
-        </div>
-      </div>
-    </div>
-  </div>
-</div>

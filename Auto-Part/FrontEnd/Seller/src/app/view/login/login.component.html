@@ -1,32 +1,90 @@
+
 <div class="loginbody">
-  <div class="rgb">
-  <div class="login-box login">
-    <div class="login-logo">
-      <a href="../../index2.html"  class="tt" style="color: white;font-weight: bold"><b class="typewrite" data-period="2000" data-type='["Seller"]' style="color: black;font-weight: bold"></b>Login</a>
+  <div class="rgb" >
+
+
+
+    <div class="login-box">
+    <div class="login-logo animated zoomIn">
+      <a href="#" style="font-size: 45px" class=""><b class="typewrite" data-period="2000" data-type='[ "Seller"]'></b>&nbsp;&nbsp; Panel</a>
     </div>
 
-    <!-- /.login-logo -->
-    <div class="card contex mid">
-      <div class="card-body login-card-body">
-        <p class="login-box-msg typewrite" data-period="2000" data-type='["Sign in to start your session"]' style="color: white"></p>
+    <div class="card contex animated zoomIn" style="width: 50%;height:50%;position: fixed;left: 25%; border-radius: 15px" >
 
-        <form method="post" #frmLogin="ngForm" action="" (ngSubmit)="login()">
-          <div class="form-group has-feedback">
-            <input  name="txtNic" type="text" class="form-control" [(ngModel)]="seller.aNic" placeholder="Input youer Nic">
-            <span class="fa fa-user form-control-feedback"></span>
-          </div>
-          <div class="form-group has-feedback">
-            <input  name="txtPassword" type="password" class="form-control" [(ngModel)]="seller.apassword" placeholder="Input Youer Password">
-            <span class="fa fa-lock form-control-feedback"></span>
-          </div>
-          <div class="row">
-            <!-- /.col -->
-            <div class="col-4">
-              <button type="submit" class="btn btn-primary btn-block btn-flat">Sign In</button>
+
+
+      <div class="card-body login-card-body" >
+
+        <p class="login-box-msg typewrite" data-period="2000" data-type='[ "Welceome Auto Part Seller Panel ","Input UserName And Password Login.."]' ></p>
+
+        <br>
+        <div class="col-8 container">
+
+          <form #frmLogin="ngForm" action="" method="post"
+                (ngSubmit)="login()">
+            <!--<div class="form-group has-feedback input-group">-->
+            <!--<div class="input-group-prepend">-->
+            <!--<span class="input-group-text">-->
+            <!--<i class="fa fa-user"></i>-->
+            <!--</span>-->
+            <!--</div>-->
+            <!--<input [(ngModel)]="seller.aNic" name="txtUserName" type="text" class="form-control float-right" placeholder="User Nic">-->
+            <!--</div>-->
+
+
+            <!--<div class="form-group has-feedback input-group">-->
+            <!--<div class="input-group-prepend">-->
+            <!--<span class="input-group-text">-->
+            <!--<i class="fa fa-check"></i>-->
+            <!--</span>-->
+            <!--</div>-->
+            <!--<input  #txtName name="txtName" type="text" class="form-control float-right" placeholder="Name">-->
+            <!--</div>-->
+
+            <!-- Material input -->
+            <div class="md-form form-group has-feedback">
+              <div class="input-group-prepend">
+                <i class="fa fa-user prefix"></i>
+                <input type="text" id="inputValidationEx2" #txtUserName [(ngModel)]="seller.aNic" name="txtUserName" class="form-control validate animated rubberBand">
+                <label for="inputValidationEx2" data-error="wrong" data-success="right" class="">User ID</label>
+              </div>
             </div>
-            <!-- /.col -->
-          </div>
-        </form>
+
+
+            <div class="md-form form-group has-feedback">
+              <div class="input-group-prepend">
+                <i class="fa fa-lock prefix"></i>
+                <input id="inputValidationEx1" [(ngModel)]="seller.apassword" #txtPassword name="txtPassword" type="password" class="form-control validate animated rubberBand">
+                <label for="inputValidationEx1" data-error="wrong" data-success="right" class="">User Password</label>
+              </div>
+            </div>
+
+            <!--<div class="form-group has-feedback input-group">-->
+            <!--<div class="input-group-prepend">-->
+            <!--<span class="input-group-text">-->
+            <!--<i class="fa fa-lock"></i>-->
+            <!--</span>-->
+            <!--</div>-->
+            <!--<input [(ngModel)]="seller.apassword" name="txtPassword" type="password" class="form-control float-right" placeholder="Password">-->
+
+            <!--</div>-->
+
+
+            <div class="container">
+              <div class="row">
+                <!-- /.col -->
+                <div class="col-6 col-md-3" style="margin-left: 35%;position: relative">
+                  <button [disabled]="!frmLogin.valid" type="submit" class="btn btn-secondary " ripple-radius mdbWavesEffect style="border-radius: 20px;">Sign In</button>
+                </div>
+                <!-- /.col -->
+                <br>
+                <br>
+              </div>
+            </div>
+
+          </form>
+        </div>
+
         <div *ngIf="failed" class="alert alert-danger alert-dismissible" style="margin-top:10px;">
           <h6><i class="icon fa fa-ban"></i> Invalid Login Credentials !</h6>
           Please enter valid login credentials to login
@@ -38,3 +96,4 @@
   <!-- /.login-box -->
   </div>
 </div>
+

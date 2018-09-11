@@ -41,9 +41,4 @@ public class CustomerController {
         return service.getTotelCustomers();
     }
 
-//
-//    @PostMapping(consumes = MediaType.APPLICATION_JSON_VALUE)
-//    public boolean canAuthenticate(@RequestBody CustomerDTO customerDTO){
-//        return  service.canAuthenticate(customerDTO.getcNic(),customerDTO.getcPassword());
-//    }
 }

@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import {ImageUploardService} from "../../services/image-uploard.service";
 
 @Component({
   selector: 'app-manage-gigs',
@@ -7,9 +8,29 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ManageGigsComponent implements OnInit {
 
-  constructor() { }
+  file:File;
+  constructor(private uploadServive:ImageUploardService) { }
 
   ngOnInit() {
   }
 
+  setImage(event){
+    const newfile=event.target.files[0];
+    console.log("hdghf")
+    this.file=newfile;
+  }
+
+  addImage():void{
+    console.log("hgdhfs")
+    const  formData:FormData=new FormData();
+    formData.append("file",this.file);
+    console.log(this.file)
+    this.uploadServive.singleFileUpload(formData).subscribe(
+      (result)=>{
+        if(result){
+          alert("Sucsess")
+        }
+      }
+    )
+  }
 }

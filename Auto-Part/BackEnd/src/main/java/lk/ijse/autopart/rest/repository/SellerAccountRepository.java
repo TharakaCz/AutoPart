@@ -8,4 +8,6 @@ public interface SellerAccountRepository  extends JpaRepository<SellerAccount,St
 
     @Query("SELECT count (sa.aNic) FROM SellerAccount sa")
     long getAllSellerAccount();
+
+
 }
