@@ -10,7 +10,7 @@ import java.util.ArrayList;
 
 @RestController
 @CrossOrigin
-@RequestMapping(value = "api/v1/customers")
+@RequestMapping(value = "/api/v1/customers")
 public class CustomerController {
 
     @Autowired

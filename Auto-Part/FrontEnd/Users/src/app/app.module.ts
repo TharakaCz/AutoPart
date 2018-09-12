@@ -21,6 +21,7 @@ import { LoginDirective } from './directive/login.directive';
 import { ManageProfileComponent } from './view/manage-profile/manage-profile.component';
 import { ComplainsComponent } from './view/complains/complains.component';
 import {ComplainService} from "./services/complain.service";
+import {CustomerService} from "./services/customer.service";
 
 @NgModule({
   declarations: [
@@ -49,7 +50,8 @@ import {ComplainService} from "./services/complain.service";
     URLService,
     PakageService,
     UserLoginService,
-    ComplainService
+    ComplainService,
+    CustomerService
   ],
   bootstrap: [AppComponent]
 })

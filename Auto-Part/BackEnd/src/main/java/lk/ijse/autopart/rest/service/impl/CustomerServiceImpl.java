@@ -43,8 +43,8 @@ public class CustomerServiceImpl implements CustomerService {
        CustomerDTO customerDTO = new CustomerDTO(customer.getcNic(),
                customer.getcName(),
                customer.getcEmail(),
-               customer.getcContact(),
                customer.getcAddress(),
+               customer.getcContact(),
                customer.getcPassword());
        return customerDTO;
     }
