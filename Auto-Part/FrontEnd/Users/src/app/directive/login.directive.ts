@@ -8,10 +8,13 @@ export class LoginDirective {
   constructor(private elm:ElementRef) { }
 
   @HostListener("mouseenter")setColorOnMouseEnter(){
-    this.elm.nativeElement.style.color = "Yellow";
     this.elm.nativeElement.style.cursor ="pointer";
-    this.elm.nativeElement.style.fontSize = "45px";
+    this.elm.nativeElement.style.fontSize = "50px";
+
   }
+
+
+
 
   @HostListener("mouseleave")setColorMouseLeave(){
     this.elm.nativeElement.style.color = "Black";

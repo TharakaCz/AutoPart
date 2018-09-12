@@ -1,0 +1,82 @@
+<br>
+<br>
+<div class="col-12 col-md-12 col-sm-12">
+  <div class="container">
+    <div class="row">
+
+      <div class="col-12 col col-md-12 col-sm-12">
+        <div class="col" style="text-align: center">
+          <h1> Complains Form</h1>
+          <p>Send Youer Complain</p>
+        </div>
+
+        <form #frmComplains="ngForm" >
+          <div class="form-group">
+            <label for="txtTitel">Input Titel</label>
+            <input  name="txtTitel" type="text"  id="txtTitel"
+                    class="form-control"  >
+            <div >
+              <div></div>
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label for="txtDiscription">Discription</label>
+            <textarea name="txtDiscription"  type="text" id="txtDiscription" class="form-control"  required ></textarea>
+          </div>
+
+          <div class="form-group">
+            <label for="txtDate">Date</label>
+            <input name="txtDate" id="txtDate" type="text"
+                   class="form-control" required />
+          </div>
+
+          <div class="form-group">
+            <label for="txtNic">Youer Nic</label>
+            <input name="txtNic"  type="text" id="txtNic" class="form-control"  required />
+          </div>
+
+          <div class="form-group">
+            <label for="txtName">Youer Name</label>
+            <input name="txtName"  type="text" id="txtName" class="form-control"  required />
+          </div>
+
+          <div class="form-group">
+            <label for="txtEmail">Youer Email</label>
+            <input name="txtEmail"  type="email" id="txtEmail" class="form-control"  required />
+          </div>
+
+          <div class="form-group">
+          <label for="txtAddress">Youer Address</label>
+          <input name="txtAddress" type="text" id="txtAddress" class="form-control"  required />
+        </div>
+
+          <div class="form-group">
+            <label for="txtContact">Youer Contact Number</label>
+            <input name="txtContact" type="text" id="txtContact" class="form-control"  required />
+          </div>
+
+
+          <div class="form-group">
+            <label for="txtPassword">Youer Password</label>
+            <input name="txtPassword" type="text" id="txtPassword" class="form-control"  required />
+          </div>
+
+          <!--<p class="form-group">-->
+          <!--<label for="txtConfirm">Re-Enter Youer Password</label>-->
+          <!--<input   id="txtConfirm" class="form-control" >-->
+          <!--</p>-->
+
+          <div class="container col-8">
+            <button type="submit" class="btn btn-primary animated bounceInRight" style="width: 100%">Send</button>
+
+            <button class="btn btn-warning animated rubberBand bounceInLeft" style="width: 100%">Clear</button>
+          </div>
+        </form>
+
+
+      </div>
+
+    </div>
+  </div>
+</div>

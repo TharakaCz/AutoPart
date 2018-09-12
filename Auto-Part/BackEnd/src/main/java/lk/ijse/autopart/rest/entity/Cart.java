@@ -5,26 +5,28 @@ import lk.ijse.autopart.rest.dto.GigDetailsDTO;
 import javax.persistence.*;
 import java.util.List;
 
-
+@Entity
 public class Cart {
 
-
+    @Id
+   @GeneratedValue(strategy = GenerationType.AUTO)
     private int id;
 
+    @OneToMany(cascade = CascadeType.MERGE)
     private List<Gig>gigList;
 
-    private List<GigDetailsDTO>gigDetailsDTOS;
+    @OneToMany(cascade = CascadeType.MERGE)
+    private List<GigDetails>gigDetails;
 
-
+    @OneToOne(cascade = CascadeType.MERGE)
     private Customer customer;
-
 
     public Cart() {
     }
 
-    public Cart(List<Gig> gigList, List<GigDetailsDTO> gigDetailsDTOS, Customer customer) {
+    public Cart(List<Gig> gigList, List<GigDetails> gigDetails, Customer customer) {
         this.gigList = gigList;
-        this.gigDetailsDTOS = gigDetailsDTOS;
+        this.gigDetails = gigDetails;
         this.customer = customer;
     }
 
@@ -44,12 +46,12 @@ public class Cart {
         this.gigList = gigList;
     }
 
-    public List<GigDetailsDTO> getGigDetailsDTOS() {
-        return gigDetailsDTOS;
+    public List<GigDetails> getGigDetails() {
+        return gigDetails;
     }
 
-    public void setGigDetailsDTOS(List<GigDetailsDTO> gigDetailsDTOS) {
-        this.gigDetailsDTOS = gigDetailsDTOS;
+    public void setGigDetails(List<GigDetails> gigDetails) {
+        this.gigDetails = gigDetails;
     }
 
     public Customer getCustomer() {
@@ -65,7 +67,7 @@ public class Cart {
         return "Cart{" +
                 "id=" + id +
                 ", gigList=" + gigList +
-                ", gigDetailsDTOS=" + gigDetailsDTOS +
+                ", gigDetails=" + gigDetails +
                 ", customer=" + customer +
                 '}';
     }

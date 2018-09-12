@@ -18,6 +18,9 @@ import {PakageService} from "./services/pakage.service";
 import { NavDirective } from './directive/nav.directive';
 import {UserLoginService} from "./services/user-login.service";
 import { LoginDirective } from './directive/login.directive';
+import { ManageProfileComponent } from './view/manage-profile/manage-profile.component';
+import { ComplainsComponent } from './view/complains/complains.component';
+import {ComplainService} from "./services/complain.service";
 
 @NgModule({
   declarations: [
@@ -28,7 +31,9 @@ import { LoginDirective } from './directive/login.directive';
     UserLoginComponent,
     GigPageComponent,
     NavDirective,
-    LoginDirective
+    LoginDirective,
+    ManageProfileComponent,
+    ComplainsComponent
   ],
   imports: [
     BrowserModule,
@@ -43,7 +48,8 @@ import { LoginDirective } from './directive/login.directive';
     UserRegistationService,
     URLService,
     PakageService,
-    UserLoginService
+    UserLoginService,
+    ComplainService
   ],
   bootstrap: [AppComponent]
 })

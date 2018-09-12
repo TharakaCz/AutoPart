@@ -1,0 +1,49 @@
+.header{
+  animation-name: header;
+  animation-duration:5s;
+  font-size: 48px;
+  animation-iteration-count: infinite;
+}
+
+@keyframes header {
+
+  0%{
+      color: #9A4BBA;
+  }
+
+  10%{
+    color: #A038CA;
+  }
+
+  20%{
+    color: #9F27CF;
+  }
+
+  30%{
+    color: #A212DC;
+  }
+
+  40%{
+    color: #A509E4;
+  }
+
+  50%{
+    color: #9709E4;
+  }
+
+  60%{
+    color: #9709E4;
+  }
+
+  70%{
+    color: #AC39E9;
+  }
+
+  90%{
+    color: #AC39E9;
+  }
+
+  100%{
+    color: #C06CEE;
+  }
+}
