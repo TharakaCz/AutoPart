@@ -1,8 +1,11 @@
-import {Component, OnInit, ViewChild} from '@angular/core';
+import {Component, ElementRef, OnInit, ViewChild} from '@angular/core';
 import {NgForm} from "@angular/forms";
-import {SellersService} from "../../../../../Seller/src/app/services/sellers.service";
 import {AlertService} from "ngx-alerts";
 import {Users} from "../../dtos/users";
+import {ComplainService} from "../../services/complain.service";
+import {CustomerService} from "../../services/customer.service";
+import {Complain} from "../../dtos/complain";
+
 
 @Component({
   selector: 'app-complains',
@@ -12,12 +15,48 @@ import {Users} from "../../dtos/users";
 export class ComplainsComponent implements OnInit {
 
   @ViewChild('frmComplains') frmComplains:NgForm;
-
+  comp:Complain = new Complain();
+  customers:Array<Users>=[];
   user:Users = new Users();
-  constructor(private seller:SellersService,private alertService:AlertService) { }
+  constructor(private customer:CustomerService,private alertService:AlertService,private complainsService:ComplainService,private elm:ElementRef) { }
 
   ngOnInit() {
+
+    this.loardCustomer();
   }
 
+  loardCustomer():void{
+
+    this.customer.getAllCustomers().subscribe(
+      (result)=>{
+        this.customers = result;
+      }
+    )
+  }
+
+  getUser():void{
+
+    this.customer.getCustomer(this.user.cNic).subscribe(
+      (result)=>{
+        this.user = result;
+      }
+    )
+
+
+  }
+
+  add():void{
+
+    this.comp.customerDTO = this.user;
+    this.complainsService.save(this.comp).subscribe(
+      (result)=>{
+         if (result){
+           this.alertService.success("Complain Send Succsessfully");
+         } else {
+           this.alertService.warning("Complain Send Faild Pleace Try Again");
+         }
+      }
+    )
+  }
 
 }

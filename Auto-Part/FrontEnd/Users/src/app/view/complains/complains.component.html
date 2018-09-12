@@ -1,6 +1,7 @@
 <br>
 <br>
 <div class="col-12 col-md-12 col-sm-12">
+  <ngx-alerts></ngx-alerts>
   <div class="container">
     <div class="row">
 
@@ -10,11 +11,11 @@
           <p>Send Youer Complain</p>
         </div>
 
-        <form #frmComplains="ngForm" >
+        <form #frmComplains="ngForm" (submit)="add()">
           <div class="form-group">
             <label for="txtTitel">Input Titel</label>
-            <input  name="txtTitel" type="text"  id="txtTitel"
-                    class="form-control"  >
+            <input  name="txtTitel" type="text"  id="txtTitel" [(ngModel)]="comp.titel"
+                    class="form-control" required/>
             <div >
               <div></div>
             </div>
@@ -22,44 +23,47 @@
 
           <div class="form-group">
             <label for="txtDiscription">Discription</label>
-            <textarea name="txtDiscription"  type="text" id="txtDiscription" class="form-control"  required ></textarea>
+            <input name="txtDiscription"  type="text" id="txtDiscription" class="form-control" [(ngModel)]="comp.discription" required />
           </div>
 
           <div class="form-group">
             <label for="txtDate">Date</label>
-            <input name="txtDate" id="txtDate" type="text"
+            <input name="txtDate" id="txtDate" type="text" [(ngModel)]="comp.date"
                    class="form-control" required />
           </div>
 
           <div class="form-group">
             <label for="txtNic">Youer Nic</label>
-            <input name="txtNic"  type="text" id="txtNic" class="form-control"  required />
+            <p class="d-flex">
+            <input name="txtNic" #txtNic  type="text" id="txtNic" class="form-control col-8" [(ngModel)]="user.cNic" required />
+            <button class="btn btn-info fa fa-search" type="button" (click)="getUser()"></button>
+            </p>
           </div>
 
           <div class="form-group">
             <label for="txtName">Youer Name</label>
-            <input name="txtName"  type="text" id="txtName" class="form-control"  required />
+            <input name="txtName"  type="text" id="txtName" class="form-control" [(ngModel)]="user.cName"  required />
           </div>
 
           <div class="form-group">
             <label for="txtEmail">Youer Email</label>
-            <input name="txtEmail"  type="email" id="txtEmail" class="form-control"  required />
+            <input name="txtEmail"  type="email" id="txtEmail" class="form-control" [(ngModel)]="user.cEmail" required />
           </div>
 
           <div class="form-group">
           <label for="txtAddress">Youer Address</label>
-          <input name="txtAddress" type="text" id="txtAddress" class="form-control"  required />
+          <input name="txtAddress" type="text" id="txtAddress" class="form-control" [(ngModel)]="user.cAddress"  required />
         </div>
 
           <div class="form-group">
             <label for="txtContact">Youer Contact Number</label>
-            <input name="txtContact" type="text" id="txtContact" class="form-control"  required />
+            <input name="txtContact" type="text" id="txtContact" class="form-control"  [(ngModel)]="user.cContact" required />
           </div>
 
 
           <div class="form-group">
             <label for="txtPassword">Youer Password</label>
-            <input name="txtPassword" type="text" id="txtPassword" class="form-control"  required />
+            <input name="txtPassword" type="password" id="txtPassword" class="form-control" [(ngModel)]="user.cPassword"  required />
           </div>
 
           <!--<p class="form-group">-->
