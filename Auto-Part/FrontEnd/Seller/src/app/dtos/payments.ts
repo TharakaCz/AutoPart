@@ -1,15 +1,15 @@
 import {Seller} from "./seller";
+import {Pakages} from "./pakages";
 
 
 export class Payments {
 
   id:number;
 
-  pakageName:string;
+  date:any;
 
-  date:string;
+  sellerDTO:Seller;
 
-  sellers:Seller;
-
+  pakagesDTO:Pakages;
 
 }

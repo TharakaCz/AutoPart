@@ -33,16 +33,48 @@
                 <form #frmPayments="ngForm" (submit)="perchese()">
 
                   <p class="form-group">
-                    <label>Seller NIC</label>
-                    <select class="custom-select d-block w-100" (change)="getSeller($event)" >
-                      <option>Choose Youer NIC</option>
-                      <option *ngFor="let se of sellers">{{se.sNic}}</option>
+                    <label>Select Pakage</label>
+                    <select class="custom-select d-block w-100" (change)="getPakage($event)">
+                      <option>Select Youer Pakage</option>
+                      <option *ngFor="let pa of pakages">{{pa.id}}</option>
                     </select>
                   </p>
 
-                  <p class="form-group">
-                    <label></label>
+                  <p class="form-group" style="visibility: hidden">
+                    <label>Pakage ID</label>
+                    <input class="form-control" name="txtPakageID" id="txtPakageID" [(ngModel)]="searchPakage.id" required/>
                   </p>
+
+                  <p class="form-group">
+                    <label>Pakage Titel</label>
+                    <input class="form-control" name="txtTitel" type="text" id="txtTitel" [(ngModel)]="searchPakage.pakageTitel"  required />
+                  </p>
+
+                  <p class="form-group">
+                    <label>Pakage Price</label>
+                    <input class="form-control" name="txtPrice" type="text" id="txtPrice" [(ngModel)]="searchPakage.pakagePrice" required />
+                  </p>
+
+                  <p class="form-group">
+                    <label>Pakage Duration</label>
+                    <input class="form-control" name="txtDuration" type="text" id="txtDuration" [(ngModel)]="searchPakage.pakageDuration" required />
+                  </p>
+
+                  <p class="form-group">
+                    <label >Due Date</label>
+                    <input name="txtDate"  id="txtDate" class="form-control" [(ngModel)]="Payments.date" required />
+                  </p>
+
+                  <div class="form-group">
+                    <label>Seller NIC</label>
+                    <p class="d-flex">
+                      <input name="txtSellerNic" id="txtSellerNic" class="form-control" [(ngModel)]="searchSellers.sNic">
+                      <button class="btn btn-info fa fa-search" type="button" (click)="getSeller()"></button>
+                    </p>
+                  </div>
+
+
+
 
                   <p class="form-group">
                     <label >Seller Name</label>
@@ -68,22 +100,6 @@
                     <label >Seller Companny</label>
                     <input name="txtCompanny"  id="txtCompanny" class="form-control" [(ngModel)]="searchSellers.sCompany" >
                   </p>
-
-                  <p class="form-group">
-                    <label>Select Pakage</label>
-                    <select class="custom-select d-block w-100" >
-                      <option>Select Youer Pakage</option>
-                      <option *ngFor="let pa of pakage">{{pa.pakageTitel}}</option>
-                    </select>
-                  </p>
-
-
-
-                  <p class="form-group">
-                    <label >Due Date</label>
-                    <input name="txtName"  id="txtName" class="form-control" [(ngModel)]="selectPayments.date">
-                  </p>
-
 
                   <div>
                     <button type="submit" class="btn btn-primary">Save</button>
