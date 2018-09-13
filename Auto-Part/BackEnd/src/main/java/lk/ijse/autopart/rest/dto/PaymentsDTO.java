@@ -1,14 +1,15 @@
 package lk.ijse.autopart.rest.dto;
 
+import java.util.Date;
+
 public class PaymentsDTO {
 
     private int id;
-    private String pakageName;
-    private String date;
+    private Date date;
 
     private SellerDTO sellerDTO;
 
-
+    private PakagesDTO pakagesDTO;
 
     public PaymentsDTO() {
     }
@@ -17,17 +18,10 @@ public class PaymentsDTO {
         this.id = id;
     }
 
-    public PaymentsDTO(String pakageName, String date, SellerDTO sellerDTO) {
-        this.pakageName = pakageName;
+    public PaymentsDTO(Date date, SellerDTO sellerDTO, PakagesDTO pakagesDTO) {
         this.date = date;
         this.sellerDTO = sellerDTO;
-    }
-
-    public PaymentsDTO(int id, String pakageName, String date, SellerDTO sellerDTO) {
-        this.id = id;
-        this.pakageName = pakageName;
-        this.date = date;
-        this.sellerDTO = sellerDTO;
+        this.pakagesDTO = pakagesDTO;
     }
 
     public int getId() {
@@ -38,19 +32,11 @@ public class PaymentsDTO {
         this.id = id;
     }
 
-    public String getPakageName() {
-        return pakageName;
-    }
-
-    public void setPakageName(String pakageName) {
-        this.pakageName = pakageName;
-    }
-
-    public String getDate() {
+    public Date getDate() {
         return date;
     }
 
-    public void setDate(String date) {
+    public void setDate(Date date) {
         this.date = date;
     }
 
@@ -62,13 +48,21 @@ public class PaymentsDTO {
         this.sellerDTO = sellerDTO;
     }
 
+    public PakagesDTO getPakagesDTO() {
+        return pakagesDTO;
+    }
+
+    public void setPakagesDTO(PakagesDTO pakagesDTO) {
+        this.pakagesDTO = pakagesDTO;
+    }
+
     @Override
     public String toString() {
         return "PaymentsDTO{" +
                 "id=" + id +
-                ", pakageName='" + pakageName + '\'' +
-                ", date='" + date + '\'' +
+                ", date=" + date +
                 ", sellerDTO=" + sellerDTO +
+                ", pakagesDTO=" + pakagesDTO +
                 '}';
     }
 }

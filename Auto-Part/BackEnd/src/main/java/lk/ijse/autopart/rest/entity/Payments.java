@@ -1,6 +1,7 @@
 package lk.ijse.autopart.rest.entity;
 
 import javax.persistence.*;
+import java.util.Date;
 
 @Entity
 public class Payments {
@@ -8,19 +9,21 @@ public class Payments {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     private int id;
-    private String pakageName;
-    private String date;
+    private Date date;
 
     @OneToOne(cascade = CascadeType.MERGE)
     private Seller seller;
 
+    @OneToOne(cascade = CascadeType.MERGE)
+    private Pakages pakages;
+
     public Payments() {
     }
 
-    public Payments(String pakageName, String date, Seller seller) {
-        this.pakageName = pakageName;
+    public Payments(Date date, Seller seller, Pakages pakages) {
         this.date = date;
         this.seller = seller;
+        this.pakages = pakages;
     }
 
     public int getId() {
@@ -31,19 +34,11 @@ public class Payments {
         this.id = id;
     }
 
-    public String getPakageName() {
-        return pakageName;
-    }
-
-    public void setPakageName(String pakageName) {
-        this.pakageName = pakageName;
-    }
-
-    public String getDate() {
+    public Date getDate() {
         return date;
     }
 
-    public void setDate(String date) {
+    public void setDate(Date date) {
         this.date = date;
     }
 
@@ -55,13 +50,21 @@ public class Payments {
         this.seller = seller;
     }
 
+    public Pakages getPakages() {
+        return pakages;
+    }
+
+    public void setPakages(Pakages pakages) {
+        this.pakages = pakages;
+    }
+
     @Override
     public String toString() {
         return "Payments{" +
                 "id=" + id +
-                ", pakageName='" + pakageName + '\'' +
-                ", date='" + date + '\'' +
+                ", date=" + date +
                 ", seller=" + seller +
+                ", pakages=" + pakages +
                 '}';
     }
 }

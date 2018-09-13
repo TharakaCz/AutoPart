@@ -31,6 +31,8 @@ public class PaymentsServiceImpl implements PaymentsService {
 
         SellerDTO sellerDTO = paymentsDTO.getSellerDTO();
 
+        PakagesDTO pakagesDTO = paymentsDTO.getPakagesDTO();
+
         Seller seller = new Seller();
         seller.setsNic(sellerDTO.getsNic());
         seller.setsName(sellerDTO.getsName());
@@ -39,14 +41,19 @@ public class PaymentsServiceImpl implements PaymentsService {
         seller.setsContactNo(sellerDTO.getsContactNo());
         seller.setsCompany(sellerDTO.getsCompany());
 
-       Payments payments = new Payments(
-               paymentsDTO.getPakageName(),
-               paymentsDTO.getDate(),
-               seller
-       );
+        Pakages pakages = new Pakages();
+        pakages.setId(pakagesDTO.getId());
+        pakages.setPakageTitel(pakagesDTO.getPakageTitel());
+        pakages.setPakagePrice(pakagesDTO.getPakagePrice());
+        pakages.setPakageDuration(pakagesDTO.getPakageDuration());
 
+        Payments payments = new Payments(
+                paymentsDTO.getDate(),
+                seller,
+                pakages
+        );
 
-       repository.save(payments);
+        repository.save(payments);
         return true;
     }
 

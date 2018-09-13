@@ -18,39 +18,29 @@ import {PaymentsService} from "../../services/payments.service";
 
 export class PaymentsComponent implements OnInit {
 
-  selectPayments:Payments = new Payments();
+  Payments:Payments = new Payments();
   searchPakage:Pakages = new Pakages();
   searchSellers:Seller = new Seller();
   pakages:Array<Pakages>=[];
-  sellers:Array<Seller>=[];
-  pakage:Array<Pakages>=[];
   @ViewChild("frmPayments") frmPayments:NgForm;
   constructor(private paymentService:PaymentsService,private alertService:AlertService,
               private pakageService:PakagesService,private sellersService:SellersService) { }
 
   ngOnInit() {
     this.loardPakage();
-    this.loardAllSellers();
   }
 
   loardPakage():void{
     this.pakageService.getAllPakage().subscribe(
       (result)=>{
-        this.pakage = result;
+        this.pakages = result;
       }
     )
   }
 
-  loardAllSellers():void{
-    this.sellersService.getAllSellers().subscribe(
-      (result)=>{
-        this.sellers = result;
-      }
-    )
-  }
 
-  getSeller(event:any):void{
-    this.sellersService.getSellers(event.target.value).subscribe(
+  getSeller():void{
+    this.sellersService.getSellers(this.searchSellers.sNic).subscribe(
       (result)=>{
         this.searchSellers = result;
       }
@@ -65,17 +55,18 @@ export class PaymentsComponent implements OnInit {
       }
     )
   }
-  perchese():void{
 
-    this.selectPayments = new Payments();
-    this.selectPayments.sellers=this.searchSellers;
+  perchese():void {
+    this.Payments.sellerDTO = this.searchSellers;
+    this.Payments.pakagesDTO = this.searchPakage;
 
-    this.paymentService.save(this.selectPayments).subscribe(
+    this.paymentService.save(this.Payments).subscribe(
       (result)=>{
         if (result){
-          this.alertService.success("Youer Payment Is Succsessfully");
+          this.alertService.success("Payment Succsessfully");
+
         } else {
-          this.alertService.warning("Youer Payment Placed Faild");
+          this.alertService.warning("Paymen Proceed Faild Pleace Try Again");
         }
       }
     )
