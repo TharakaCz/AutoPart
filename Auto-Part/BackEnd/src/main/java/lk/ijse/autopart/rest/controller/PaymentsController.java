@@ -36,4 +36,9 @@ public class PaymentsController {
 //    public PaymentsDTO getPayments(@PathVariable("id") int id){
 //        return service.getPayments(id);
 //    }
+
+    @GetMapping(value = "/count",produces = MediaType.APPLICATION_JSON_VALUE)
+    public long TotalPayment(){
+        return service.TotalPayment();
+    }
 }

@@ -5,6 +5,7 @@ import lk.ijse.autopart.rest.dto.CustomerDTO;
 import lk.ijse.autopart.rest.entity.Complains;
 import lk.ijse.autopart.rest.entity.Customer;
 import lk.ijse.autopart.rest.repository.ComplainsRepository;
+import lk.ijse.autopart.rest.repository.CustomerRepository;
 import lk.ijse.autopart.rest.service.ComplainsService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
@@ -12,6 +13,7 @@ import org.springframework.transaction.annotation.Propagation;
 import org.springframework.transaction.annotation.Transactional;
 
 import java.util.ArrayList;
+import java.util.List;
 
 
 @Service
@@ -20,6 +22,9 @@ public class ComplainsServiceImpl implements ComplainsService {
 
     @Autowired
     private ComplainsRepository repository;
+
+    @Autowired
+    private CustomerRepository customerRepository;
 
     @Override
     @Transactional(propagation = Propagation.REQUIRED)
@@ -64,31 +69,7 @@ public class ComplainsServiceImpl implements ComplainsService {
     @Override
     public ArrayList<ComplainsDTO> getAllComplains() {
 
-//        List<Complains>complainsDTOS = repository.findAll();
-//
-//        ArrayList<ComplainsDTO>complainsDTOArrayList = new ArrayList<>();
-//
-//        Customer customer = new Customer();
-//        CustomerDTO customerDTO = new CustomerDTO(
-//                customer.getcNic(),
-//                customer.getcName(),
-//                customer.getcEmail(),
-//                customer.getcAddress(),
-//                customer.getcContact(),
-//                customer.getcPassword()
-//        );
-//
-//
-//        for (Complains complains : complainsDTOS){
-//            ComplainsDTO complainsDTO = new ComplainsDTO(
-//                    complains.getId(),
-//                    complains.getTitel(),
-//                    complains.getDisciption(),
-//                    complains.getDate(),
-//                    complains.getCustomer()
-//            );
 
-//        }
 
         return null;
     }
