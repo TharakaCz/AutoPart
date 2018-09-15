@@ -22,6 +22,8 @@
           <element id="library" level="project" name="Maven: org.springframework:spring-tx:5.0.7.RELEASE" />
           <element id="library" level="project" name="Maven: org.aspectj:aspectjrt:1.8.13" />
           <element id="library" level="project" name="Maven: org.slf4j:slf4j-api:1.7.25" />
+          <element id="library" level="project" name="Maven: org.springframework.security:spring-security-core:5.0.8.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework.security:spring-security-config:5.0.8.RELEASE" />
           <element id="library" level="project" name="Maven: com.fasterxml.jackson.core:jackson-databind:2.9.5" />
           <element id="library" level="project" name="Maven: com.fasterxml.jackson.core:jackson-annotations:2.9.0" />
           <element id="library" level="project" name="Maven: com.fasterxml.jackson.core:jackson-core:2.9.5" />

@@ -26,6 +26,8 @@ import { PakagesComponent } from './view/pakages/pakages.component';
 import {PakagesService} from "./services/pakages.service";
 import {SellersService} from "./services/sellers.service";
 import { NavDirective } from './directive/nav.directive';
+import {ComplainsService} from "./services/complains.service";
+
 
 
 
@@ -61,7 +63,8 @@ import { NavDirective } from './directive/nav.directive';
     DiliverService,
     ImageUploardService,
     PakagesService,
-    SellersService
+    SellersService,
+    ComplainsService
   ],
   bootstrap: [AppComponent]
 })

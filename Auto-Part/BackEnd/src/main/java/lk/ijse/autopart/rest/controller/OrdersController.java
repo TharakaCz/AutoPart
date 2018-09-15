@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.*;
 
 @RestController
 @CrossOrigin
-@RequestMapping(value = "api/v1/orders")
+@RequestMapping(value = "/api/v1/orders")
 
 public class OrdersController {
 

@@ -15,5 +15,7 @@ public interface PaymentsService {
 
     public PaymentsDTO getPayments(int id);
 
+    public long TotalPayment();
+
 
 }

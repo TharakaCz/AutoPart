@@ -76,4 +76,9 @@ public class PaymentsServiceImpl implements PaymentsService {
 
         return null;
     }
+
+    @Override
+    public long TotalPayment() {
+        return  repository.TotalPayment();
+    }
 }
